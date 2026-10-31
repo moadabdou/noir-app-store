@@ -1,0 +1,18 @@
+<section class="shell catalog">
+  <header class="catalog__head">
+    <p class="eyebrow"><span class="eyebrow__dot"></span>{{mod_count_label}}</p>
+    <h1 class="catalog__title">Mods</h1>
+    <p class="catalog__blurb">Community builds of the apps you already use. Every listing spells out what the build changes, which versions it targets and how to install it — and the download button only goes live when a real build URL is configured.</p>
+  </header>
+
+  <div class="mod-note">
+    <span class="mod-note__mark" aria-hidden="true">i</span>
+    <p><b>How NOIR handles mods.</b> A mod is a rebuild of an existing app. NOIR links to the official app it is based on, lists the exact changes, and never mirrors a build. If a listing has no published build, the download button stays disabled and says why.</p>
+  </div>
+
+  <div class="mod-list">{{mod_cards}}</div>
+
+  <div class="mod-empty" hidden>
+    <p class="muted">No mod listings yet. Publishers can add one with <code>python3 tools/catalog.py add --mod</code>.</p>
+  </div>
+</section>

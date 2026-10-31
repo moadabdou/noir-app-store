@@ -1,0 +1,2040 @@
+{
+  "meta": {
+    "brand": "NOIR",
+    "tagline": "Apps & games, curated in the dark.",
+    "storeUrl": "https://play.google.com/store/apps",
+    "updated": "2026-10-18"
+  },
+  "categories": [
+    {
+      "slug": "communication",
+      "name": "Communication",
+      "kind": "app",
+      "icon": "chat",
+      "blurb": "Messaging, calls and encrypted conversations."
+    },
+    {
+      "slug": "browsers",
+      "name": "Browsers",
+      "kind": "app",
+      "icon": "globe",
+      "blurb": "Fast, private ways to read the web."
+    },
+    {
+      "slug": "multimedia",
+      "name": "Multimedia",
+      "kind": "app",
+      "icon": "play",
+      "blurb": "Players, music and streaming companions."
+    },
+    {
+      "slug": "productivity",
+      "name": "Productivity",
+      "kind": "app",
+      "icon": "layers",
+      "blurb": "Notes, tasks and focus tooling."
+    },
+    {
+      "slug": "security",
+      "name": "Security",
+      "kind": "app",
+      "icon": "shield",
+      "blurb": "Passwords, keys and locked-down privacy."
+    },
+    {
+      "slug": "utilities",
+      "name": "Utilities",
+      "kind": "app",
+      "icon": "tool",
+      "blurb": "Everyday helpers that stay out of the way."
+    },
+    {
+      "slug": "developer",
+      "name": "Developer Tools",
+      "kind": "app",
+      "icon": "code",
+      "blurb": "Terminals, shells and build utilities."
+    },
+    {
+      "slug": "graphics",
+      "name": "Graphics",
+      "kind": "app",
+      "icon": "brush",
+      "blurb": "Illustration and image editing on the go."
+    },
+    {
+      "slug": "travel",
+      "name": "Travel & Maps",
+      "kind": "app",
+      "icon": "map",
+      "blurb": "Offline navigation and trip planning."
+    },
+    {
+      "slug": "arcade",
+      "name": "Arcade",
+      "kind": "game",
+      "icon": "bolt",
+      "blurb": "One-thumb score chasers."
+    },
+    {
+      "slug": "action",
+      "name": "Action",
+      "kind": "game",
+      "icon": "flame",
+      "blurb": "Adrenaline, missions and quick reflexes."
+    },
+    {
+      "slug": "puzzle",
+      "name": "Puzzle",
+      "kind": "game",
+      "icon": "gem",
+      "blurb": "Clever mechanisms and quiet challenges."
+    },
+    {
+      "slug": "strategy",
+      "name": "Strategy",
+      "kind": "game",
+      "icon": "tower",
+      "blurb": "Build, defend and outsmart."
+    },
+    {
+      "slug": "racing",
+      "name": "Racing",
+      "kind": "game",
+      "icon": "rocket",
+      "blurb": "Speed, drift and the finish line."
+    },
+    {
+      "slug": "sandbox",
+      "name": "Sandbox",
+      "kind": "game",
+      "icon": "cube",
+      "blurb": "Create worlds and break them apart."
+    },
+    {
+      "slug": "simulation",
+      "name": "Simulation",
+      "kind": "game",
+      "icon": "leaf",
+      "blurb": "Run a farm, a town, a life."
+    }
+  ],
+  "apps": [
+    {
+      "slug": "among-us",
+      "name": "Among Us",
+      "tagline": "Crewmates, impostors, chaos",
+      "type": "game",
+      "category": "action",
+      "developer": "InnerSloth",
+      "version": "2026.10.1",
+      "size": "128.7 MB",
+      "android": "Android 6.0+",
+      "rating": 4.0,
+      "ratings": 24980122,
+      "downloads": "1B+",
+      "updated": "2026-10-12",
+      "released": "2018-06-15",
+      "price": "Free",
+      "contentRating": "Teen",
+      "motif": "crew",
+      "palette": [
+        "#431323",
+        "#EC4899"
+      ],
+      "icon": "/static/img/icons/real/among-us.jpg",
+      "art": "/static/img/art/among-us.svg",
+      "screenshots": [
+        "/static/img/shots/among-us-1.svg",
+        "/static/img/shots/among-us-2.svg",
+        "/static/img/shots/among-us-3.svg",
+        "/static/img/shots/among-us-4.svg"
+      ],
+      "description": "Among Us turns a simple premise into endless social deduction. Work alongside your crewmates to keep the ship flying, or take the role of the impostor and quietly eliminate everyone before the meeting catches on.",
+      "highlights": [
+        "Ten-player social deduction across maps",
+        "Crewmate tasks with a satisfying variety",
+        "Impostor mode with sabotages and kills",
+        "Cross-play with PC, console and mobile"
+      ],
+      "whatsNew": "The newest season added a map variant and a new role, matchmaking rebalance made lobbies fairer, and the mobile port renders smoother on older devices.",
+      "permissions": [
+        "Microphone",
+        "Camera",
+        "Notifications",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/among-us.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.innersloth.spacemaniacs",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/pfGArJJx-vtMRVu2-ziedzAhTLsHgks6N3mNyyOC0oxRdsXINGwdd9h4ZutdTG7MfgiqlDXBXnk-kNo-Fns70Q=s0-br30",
+        "fetched": "2026-10-21T15:41:01+00:00"
+      }
+    },
+    {
+      "slug": "angry-birds-2",
+      "name": "Angry Birds 2",
+      "tagline": "Launch, splat, repeat",
+      "type": "game",
+      "category": "arcade",
+      "developer": "Rovio",
+      "version": "9.4.2",
+      "size": "98.7 MB",
+      "android": "Android 7.0+",
+      "rating": 4.4,
+      "ratings": 41250872,
+      "downloads": "1B+",
+      "updated": "2026-08-28",
+      "released": "2014-08-27",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "bird",
+      "palette": [
+        "#3d1503",
+        "#F97316"
+      ],
+      "icon": "/static/img/icons/real/angry-birds-2.png",
+      "art": "/static/img/art/angry-birds-2.svg",
+      "screenshots": [
+        "/static/img/shots/angry-birds-2-1.svg",
+        "/static/img/shots/angry-birds-2-2.svg",
+        "/static/img/shots/angry-birds-2-3.svg",
+        "/static/img/shots/angry-birds-2-4.svg"
+      ],
+      "description": "Angry Birds 2 is a physics puzzler where a flock of furious birds is the only ammunition you have. Peel back structures, trigger chain reactions and squeeze the last green pig out of impossible towers.",
+      "highlights": [
+        "Tens of hand-designed physics levels",
+        "A dozen bird types with unique abilities",
+        "Daily challenges and event levels",
+        "Fully playable offline"
+      ],
+      "whatsNew": "Event levels now rotate faster, the bird roster gained a new mid-tier flier, and physics performance improved on low-end devices.",
+      "permissions": [
+        "Storage",
+        "Network",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/angry-birds-2.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.rovio.angrybirds2",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/XrA1acf-l1YT0jw0QTxWqpJLE_TYSgdGpWE1vrEepFpA2128Zx4to0ARPvKFdhT5vAc0LHHC7xAAwa8aABIFeg=s0-br30",
+        "fetched": "2026-10-21T15:41:11+00:00"
+      }
+    },
+    {
+      "slug": "antennapod",
+      "name": "AntennaPod",
+      "tagline": "Podcast player, no ads",
+      "type": "app",
+      "category": "multimedia",
+      "developer": "AntennaPod",
+      "version": "4.1.3",
+      "size": "22.6 MB",
+      "android": "Android 5.0+",
+      "rating": 4.7,
+      "ratings": 3942,
+      "downloads": "1M+",
+      "updated": "2026-09-15",
+      "released": "2016-01-01",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "mic",
+      "palette": [
+        "#3a2205",
+        "#F59E0B"
+      ],
+      "icon": "/static/img/icons/real/antennapod.png",
+      "art": "/static/img/art/antennapod.svg",
+      "screenshots": [
+        "/static/img/shots/antennapod-1.svg",
+        "/static/img/shots/antennapod-2.svg",
+        "/static/img/shots/antennapod-3.svg",
+        "/static/img/shots/antennapod-4.svg"
+      ],
+      "description": "AntennaPod is a free podcast client with no ads, no tracking and no algorithm deciding what you hear. It downloads episodes for offline listening, supports chapters, and syncs playback position across devices.",
+      "highlights": [
+        "No ads and no tracking whatsoever",
+        "Automatic episode download rules",
+        "Playback position and subscriptions sync",
+        "Chapters, chapters-only downloads and transcripts"
+      ],
+      "whatsNew": "The episode list loads faster on large feeds, sleep timer gained a fade-out, and a new filter makes it easier to find unplayed episodes.",
+      "permissions": [
+        "Storage",
+        "Notifications",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=de.danoeh.antennapod&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/antennapod.svg",
+      "storeResolvedFrom": "https://f-droid.org/packages/org.antennapod.android/",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=de.danoeh.antennapod&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/3ifnx8300WmGrzDFtmQj8uY6Wz7O6BRWyiFo0YNMjY6OI371dd7rdMPLR3onZxGbaFM0xcagSWBTEtNO39Zm=s0-br30",
+        "fetched": "2026-10-21T15:41:02+00:00"
+      }
+    },
+    {
+      "slug": "bitwarden",
+      "name": "Bitwarden",
+      "tagline": "Passwords and passkeys",
+      "type": "app",
+      "category": "security",
+      "developer": "Bitwarden",
+      "version": "2026.9.0",
+      "size": "45.2 MB",
+      "android": "Android 6.0+",
+      "rating": 4.6,
+      "ratings": 129043,
+      "downloads": "10M+",
+      "updated": "2026-09-27",
+      "released": "2016-03-31",
+      "price": "Free with in-app purchases",
+      "contentRating": "Everyone",
+      "motif": "key",
+      "palette": [
+        "#0b2f4a",
+        "#2C6E49"
+      ],
+      "icon": "/static/img/icons/real/bitwarden.png",
+      "art": "/static/img/art/bitwarden.svg",
+      "screenshots": [
+        "/static/img/shots/bitwarden-1.svg",
+        "/static/img/shots/bitwarden-2.svg",
+        "/static/img/shots/bitwarden-3.svg",
+        "/static/img/shots/bitwarden-4.svg"
+      ],
+      "description": "Bitwarden stores passwords, passkeys, cards and notes inside an encrypted vault that you control. Autofill works across apps and browsers, and self-hosting is a genuinely supported option rather than an afterthought.",
+      "highlights": [
+        "Passwords, passkeys, cards and secure notes",
+        "Autofill for apps and web forms",
+        "End-to-end encrypted sync you can self-host",
+        "Vault health report for weak and reused passwords"
+      ],
+      "whatsNew": "Passkey support expanded to more apps, autofill is faster on cold start, and the vault report can now suggest generated replacements.",
+      "permissions": [
+        "Autofill service",
+        "Camera",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/bitwarden.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.x8bit.bitwarden",
+        "image": "https://play-lh.googleusercontent.com/ezsPZ5JtRMkMd6DtbUOZghm4m-EbYcZSzXAIxJMumYOaDP9sI8o-DN8-tZpds0HJUXb-ur7F-oB9rFH78Jy2lA=s0-br30",
+        "fetched": "2026-10-21T15:40:41+00:00"
+      }
+    },
+    {
+      "slug": "bloons-td-6",
+      "name": "Bloons TD 6",
+      "tagline": "Bloons. Tower. Defense.",
+      "type": "game",
+      "category": "strategy",
+      "developer": "Ninja Kiwi",
+      "version": "52.1",
+      "size": "76.4 MB",
+      "android": "Android 7.0+",
+      "rating": 4.6,
+      "ratings": 1224083,
+      "downloads": "10M+",
+      "updated": "2026-10-02",
+      "released": "2017-02-17",
+      "price": "Paid",
+      "contentRating": "Teen",
+      "motif": "target",
+      "palette": [
+        "#2a1206",
+        "#F59E0B"
+      ],
+      "icon": "/static/img/icons/real/bloons-td-6.png",
+      "art": "/static/img/art/bloons-td-6.svg",
+      "screenshots": [
+        "/static/img/shots/bloons-td-6-1.svg",
+        "/static/img/shots/bloons-td-6-2.svg",
+        "/static/img/shots/bloons-td-6-3.svg",
+        "/static/img/shots/bloons-td-6-4.svg"
+      ],
+      "description": "Bloons TD 6 is the definitive modern tower defence game: sixty maps, dozens of monkey upgrades, hero units and a par system that turns every track into a puzzle of leak prevention. It rewards planning far more than reflexes.",
+      "highlights": [
+        "Sixty maps with rotating game modes",
+        "Towers, heroes, upgrades and alchemist chemistry",
+        "Co-op and daily challenges",
+        "Deep progression with a large unlock tree"
+      ],
+      "whatsNew": "A new hero and two towers landed in the latest patch, co-op saves are more stable, and the map editor added background painting.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.netflix.NGP.BloonsTDSix&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/bloons-td-6.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.ninjakiwi.bloontd6",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.netflix.NGP.BloonsTDSix&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/UJR7xzdQ5qujPgi7ZttF6lfnmC-ESqq4ohstKfc0Hvg1kdxMB5ahpeRI3QBVXW0ZZiXjrG7C2Zb5XFknvaFOvA=s0-br30",
+        "fetched": "2026-10-21T15:41:36+00:00"
+      }
+    },
+    {
+      "slug": "brave",
+      "name": "Brave Browser",
+      "tagline": "Web without the tracking",
+      "type": "app",
+      "category": "browsers",
+      "developer": "Brave Software",
+      "version": "1.78.121",
+      "size": "58.3 MB",
+      "android": "Android 8.0+",
+      "rating": 4.5,
+      "ratings": 213770,
+      "downloads": "50M+",
+      "updated": "2026-10-08",
+      "released": "2018-10-17",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "lion",
+      "palette": [
+        "#4a1c0d",
+        "#FB542B"
+      ],
+      "icon": "/static/img/icons/real/brave.png",
+      "art": "/static/img/art/brave.svg",
+      "screenshots": [
+        "/static/img/shots/brave-1.svg",
+        "/static/img/shots/brave-2.svg",
+        "/static/img/shots/brave-3.svg",
+        "/static/img/shots/brave-4.svg"
+      ],
+      "description": "Brave blocks ads and trackers by default instead of asking you to opt in. Chromium compatibility means every site keeps working, while Brave Shields, a built-in Tor private mode and encrypted DNS handle the rest quietly in the background.",
+      "highlights": [
+        "Ads and trackers blocked on every device",
+        "Built-in password manager with sync",
+        "Tor private mode and fingerprint resistance",
+        "Rewards for opting into privacy-preserving ads"
+      ],
+      "whatsNew": "Fingerprint protection now covers more surface area, Brave Search gained a summary mode, and tab groups sync faster between phone and desktop.",
+      "permissions": [
+        "Camera",
+        "Microphone",
+        "Notifications",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.brave.browser",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/brave.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.brave.browser",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.brave.browser",
+        "image": "https://play-lh.googleusercontent.com/UBrZnuXGb-QACU0uUdF5r_n5nx5oBbdfPyEbtsr0xXv00RN7rpaTVu3GjLeE90aHFmNlbaCmm8vNcmY0eE98U9E=s0-br30",
+        "fetched": "2026-10-21T15:40:21+00:00"
+      }
+    },
+    {
+      "slug": "duckduckgo",
+      "name": "DuckDuckGo Browser",
+      "tagline": "Search that forgets",
+      "type": "app",
+      "category": "browsers",
+      "developer": "DuckDuckGo",
+      "version": "5.233.0",
+      "size": "62.4 MB",
+      "android": "Android 8.0+",
+      "rating": 4.4,
+      "ratings": 322190,
+      "downloads": "100M+",
+      "updated": "2026-10-05",
+      "released": "2018-03-22",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "duck",
+      "palette": [
+        "#3d2b0a",
+        "#DE5833"
+      ],
+      "icon": "/static/img/icons/real/duckduckgo.png",
+      "art": "/static/img/art/duckduckgo.svg",
+      "screenshots": [
+        "/static/img/shots/duckduckgo-1.svg",
+        "/static/img/shots/duckduckgo-2.svg",
+        "/static/img/shots/duckduckgo-3.svg",
+        "/static/img/shots/duckduckgo-4.svg"
+      ],
+      "description": "DuckDuckGo searches the web without building a profile of you. Its App Tracking Protection blocks cross-app trackers across the whole device, and the browser scrubs tracking parameters from links before you even tap them.",
+      "highlights": [
+        "System-wide App Tracking Protection",
+        "Private search that never stores personal history",
+        "Fire button that wipes tabs and data instantly",
+        "Automatic link and tracker cleanup"
+      ],
+      "whatsNew": "App Tracking Protection now covers more system services, search results render faster, and the Fire button clears downloads as well as tabs.",
+      "permissions": [
+        "Camera",
+        "Microphone",
+        "Notifications",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/duckduckgo.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android",
+        "image": "https://play-lh.googleusercontent.com/R9-3PbO5ywKx6dA5OQI2wkesOpmgY9CzKhB_1Eqn-GC_vRjeqwtG-CLVs2o55wuRhiLS0pd1Sui_kUyn7Q4dng=s0-br30",
+        "fetched": "2026-10-21T15:40:21+00:00"
+      }
+    },
+    {
+      "slug": "f-droid",
+      "name": "F-Droid",
+      "tagline": "The free software catalogue",
+      "type": "app",
+      "category": "utilities",
+      "developer": "F-Droid Community",
+      "version": "1.1.3",
+      "size": "14.3 MB",
+      "android": "Android 5.0+",
+      "rating": 4.5,
+      "ratings": 51233,
+      "downloads": "10M+",
+      "updated": "2026-09-30",
+      "released": "2010-08-24",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "box",
+      "palette": [
+        "#1f2a12",
+        "#3FA34D"
+      ],
+      "icon": "/static/img/icons/real/f-droid.png",
+      "art": "/static/img/art/f-droid.svg",
+      "screenshots": [
+        "/static/img/shots/f-droid-1.svg",
+        "/static/img/shots/f-droid-2.svg",
+        "/static/img/shots/f-droid-3.svg",
+        "/static/img/shots/f-droid-4.svg"
+      ],
+      "description": "F-Droid is an installable catalogue of free and open source software. Every build is compiled from the original source with no tracking, no ads and no proprietary blobs, and updates arrive straight from the developers.",
+      "highlights": [
+        "Thousands of free and open source apps",
+        "Automatic updates with rollback support",
+        "No tracking, no ads, no permissions bloat",
+        "Repository manager for custom app lists"
+      ],
+      "whatsNew": "Update history is clearer, the package list renders faster on large repositories, and anti-feature badges now show a short explanation.",
+      "permissions": [
+        "Storage",
+        "Network",
+        "Notifications"
+      ],
+      "store": "https://f-droid.org/packages/org.fdroid.fdroid/",
+      "storeName": "F-Droid",
+      "trending": false,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/f-droid.svg",
+      "iconSource": {
+        "page": "https://f-droid.org/packages/org.fdroid.fdroid/",
+        "image": "https://f-droid.org/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png",
+        "fetched": "2026-10-21T15:42:33+00:00"
+      }
+    },
+    {
+      "slug": "firefox",
+      "name": "Firefox",
+      "tagline": "The independent browser",
+      "type": "app",
+      "category": "browsers",
+      "developer": "Mozilla",
+      "version": "143.0",
+      "size": "94.1 MB",
+      "android": "Android 8.0+",
+      "rating": 4.5,
+      "ratings": 398212,
+      "downloads": "100M+",
+      "updated": "2026-10-14",
+      "released": "2004-11-09",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "globe",
+      "palette": [
+        "#4a1d0e",
+        "#FF7139"
+      ],
+      "icon": "/static/img/icons/real/firefox.png",
+      "art": "/static/img/art/firefox.svg",
+      "screenshots": [
+        "/static/img/shots/firefox-1.svg",
+        "/static/img/shots/firefox-2.svg",
+        "/static/img/shots/firefox-3.svg",
+        "/static/img/shots/firefox-4.svg"
+      ],
+      "description": "Firefox is the last major browser with an independent engine. Total Cookie Control, tracker blocking and a redesigned address bar give you real control over what the web knows about you, on every device.",
+      "highlights": [
+        "Total Cookie Control with per-site permissions",
+        "Enhanced tracking protection out of the box",
+        "Picture-in-picture and background tab previews",
+        "Firefox Sync for bookmarks, tabs and passwords"
+      ],
+      "whatsNew": "The address bar now searches faster with fuzzy matching, PDF rendering improved on tablets, and Android 15 devices get smoother scrolling.",
+      "permissions": [
+        "Camera",
+        "Microphone",
+        "Notifications",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/firefox.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
+        "image": "https://play-lh.googleusercontent.com/jQAmlGUkuJGc4TjZs2OEUeB5Gy3dCpKCWqfgVmab5NvM_43oed2qhVhrlEajccjJV6VkDFCEXws_6t6StKKLTY4=s0-br30",
+        "fetched": "2026-10-21T15:40:21+00:00"
+      }
+    },
+    {
+      "slug": "hill-climb-racing-2",
+      "name": "Hill Climb Racing 2",
+      "tagline": "Torque, hills and upgrades",
+      "type": "game",
+      "category": "racing",
+      "developer": "Fingersoft",
+      "version": "1.6.19",
+      "size": "88.3 MB",
+      "android": "Android 5.0+",
+      "rating": 4.3,
+      "ratings": 29440182,
+      "downloads": "500M+",
+      "updated": "2026-09-16",
+      "released": "2014-02-24",
+      "price": "Free with in-app purchases",
+      "contentRating": "Everyone",
+      "motif": "car",
+      "palette": [
+        "#331a02",
+        "#EAB308"
+      ],
+      "icon": "/static/img/icons/real/hill-climb-racing-2.png",
+      "art": "/static/img/art/hill-climb-racing-2.svg",
+      "screenshots": [
+        "/static/img/shots/hill-climb-racing-2-1.svg",
+        "/static/img/shots/hill-climb-racing-2-2.svg",
+        "/static/img/shots/hill-climb-racing-2-3.svg",
+        "/static/img/shots/hill-climb-racing-2-4.svg"
+      ],
+      "description": "Hill Climb Racing 2 is a one-button physics racer about the balance between torque and fuel. The hill never ends, the suspension is never quite right, and the garage full of upgrades is always one run away.",
+      "highlights": [
+        "One-touch physics across endless country and city hills",
+        "Deep vehicle upgrades and 40+ vehicles",
+        "Team mode with custom leaderboards",
+        "Offline play with cloud save sync"
+      ],
+      "whatsNew": "Suspension tuning got a wider range, the team system added seasonal cups, and physics was rebalanced for smoother landings.",
+      "permissions": [
+        "Storage",
+        "Network",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/hill-climb-racing-2.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.fingersoft.hillclimb2",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/txB7-bJOtbijarGbXMB4hMmwFM3Xp_zyR3esLFMBco2wIGsrodNow8_HZSjKNgHT3GhPdBunMf6Fu_kJmwe57g=s0-br30",
+        "fetched": "2026-10-21T15:41:12+00:00"
+      }
+    },
+    {
+      "slug": "jellyfin",
+      "name": "Jellyfin",
+      "tagline": "Your media server, in your pocket",
+      "type": "app",
+      "category": "multimedia",
+      "developer": "Jellyfin",
+      "version": "1.7.4",
+      "size": "47.6 MB",
+      "android": "Android 7.0+",
+      "rating": 4.5,
+      "ratings": 1873,
+      "downloads": "100K+",
+      "updated": "2026-10-02",
+      "released": "2019-02-18",
+      "price": "Free",
+      "contentRating": "Teen",
+      "motif": "server",
+      "palette": [
+        "#0a2b46",
+        "#00A4E4"
+      ],
+      "icon": "/static/img/icons/real/jellyfin.png",
+      "art": "/static/img/art/jellyfin.svg",
+      "screenshots": [
+        "/static/img/shots/jellyfin-1.svg",
+        "/static/img/shots/jellyfin-2.svg",
+        "/static/img/shots/jellyfin-3.svg",
+        "/static/img/shots/jellyfin-4.svg"
+      ],
+      "description": "Jellyfin connects to your own media server so your films, series and music follow you to any screen. There is no account to create, no subscription to pay, and nothing leaves your house unless you ask it to.",
+      "highlights": [
+        "Free and open source media server client",
+        "Offline downloads for travel",
+        "Live TV and DVR with guide data",
+        "Hardware transcoding through the server"
+      ],
+      "whatsNew": "Chapter support in the web player, better subtitle styling, and the Android TV client now supports multi-user profiles.",
+      "permissions": [
+        "Storage",
+        "Notifications",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=org.jellyfin.mobile",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/jellyfin.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=org.jellyfin.mobile",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=org.jellyfin.mobile",
+        "image": "https://play-lh.googleusercontent.com/vlp53cLaoFS90PD0IwmdksDVosTb7vOVl6pkD0eVXsygj07k4uCDK1Yy7eng3Na7nGBLuhh7LdMmpsGVQwwmgw=s0-br30",
+        "fetched": "2026-10-21T15:40:23+00:00"
+      }
+    },
+    {
+      "slug": "joplin",
+      "name": "Joplin",
+      "tagline": "Notes and to-dos, encrypted",
+      "type": "app",
+      "category": "productivity",
+      "developer": "Netnote",
+      "version": "3.4.2",
+      "size": "38.7 MB",
+      "android": "Android 7.0+",
+      "rating": 4.6,
+      "ratings": 4817,
+      "downloads": "1M+",
+      "updated": "2026-10-01",
+      "released": "2019-04-04",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "note",
+      "palette": [
+        "#101d3d",
+        "#3B82F6"
+      ],
+      "icon": "/static/img/icons/real/joplin.png",
+      "art": "/static/img/art/joplin.svg",
+      "screenshots": [
+        "/static/img/shots/joplin-1.svg",
+        "/static/img/shots/joplin-2.svg",
+        "/static/img/shots/joplin-3.svg",
+        "/static/img/shots/joplin-4.svg"
+      ],
+      "description": "Joplin is an open source note-taking app that keeps markdown notes, checklists, links and attachments in sync across devices. End-to-end encryption is available, and notes can be exported in one click so you are never locked in.",
+      "highlights": [
+        "Markdown notes, checklists and attachments",
+        "End-to-end encryption with master password",
+        "Web clipper for saving pages",
+        "One-click export to Markdown, HTML or PDF"
+      ],
+      "whatsNew": "Note search is faster on large vaults, the mobile editor handles long documents better, and the share target can now batch-import URLs.",
+      "permissions": [
+        "Storage",
+        "Camera",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=net.cozic.joplin",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/joplin.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=net.cozic.joplin",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=net.cozic.joplin",
+        "image": "https://play-lh.googleusercontent.com/lx6f5uHywPtp3Qa16q_db_6o8k5ZEWeArQ4zUcvv8Df2vVT48t15902s-G1P6A_7llxKH9Ob6Jxof0Cm9t-5OQ=s0-br30",
+        "fetched": "2026-10-21T15:40:39+00:00"
+      }
+    },
+    {
+      "slug": "keepassdx",
+      "name": "KeePassDX",
+      "tagline": "Offline password vault",
+      "type": "app",
+      "category": "security",
+      "developer": "Kunzisoft",
+      "version": "2.9.4",
+      "size": "17.8 MB",
+      "android": "Android 6.0+",
+      "rating": 4.7,
+      "ratings": 4128,
+      "downloads": "1M+",
+      "updated": "2026-08-05",
+      "released": "2019-09-19",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "vault",
+      "palette": [
+        "#243007",
+        "#84CC16"
+      ],
+      "icon": "/static/img/icons/real/keepassdx.png",
+      "art": "/static/img/art/keepassdx.svg",
+      "screenshots": [
+        "/static/img/shots/keepassdx-1.svg",
+        "/static/img/shots/keepassdx-2.svg",
+        "/static/img/shots/keepassdx-3.svg",
+        "/static/img/shots/keepassdx-4.svg"
+      ],
+      "description": "KeePassDX is a single-file password manager that keeps everything on your device inside an encrypted database. It opens standard KDBX files, so your vault is not tied to any company that can change the price or shut down.",
+      "highlights": [
+        "Local encrypted database, no account required",
+        "Autofill support through the keyboard",
+        "Opens standard KDBX files from any KeePass client",
+        "Import and export to CSV"
+      ],
+      "whatsNew": "Biometric unlock is faster, the database unlock screen got biometric icons, and autofill now handles multi-field forms better.",
+      "permissions": [
+        "Autofill service",
+        "Biometrics",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/keepassdx.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.libre",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/Hcd9Ioqc6Izc76mbXmZFiyrHXJfl0pO0n3GaU5OSKNlkhWHE5TPnHedpW_sbmseGYBLfGboVqAO4MI05YTiZ=s0-br30",
+        "fetched": "2026-10-21T15:40:51+00:00"
+      }
+    },
+    {
+      "slug": "krita",
+      "name": "Krita",
+      "tagline": "Digital painting, fully featured",
+      "type": "app",
+      "category": "graphics",
+      "developer": "KDE",
+      "version": "5.2.6",
+      "size": "68.4 MB",
+      "android": "Android 10+",
+      "rating": 4.6,
+      "ratings": 1892,
+      "downloads": "1M+",
+      "updated": "2026-09-08",
+      "released": "2019-06-27",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "brush",
+      "palette": [
+        "#3b1230",
+        "#E0568A"
+      ],
+      "icon": "/static/img/icons/real/krita.png",
+      "art": "/static/img/art/krita.svg",
+      "screenshots": [
+        "/static/img/shots/krita-1.svg",
+        "/static/img/shots/krita-2.svg",
+        "/static/img/shots/krita-3.svg",
+        "/static/img/shots/krita-4.svg"
+      ],
+      "description": "Krita is a professional painting program built for artists who think in layers, brushes and frames. It runs on a tablet with pen pressure support just as happily as it does on a phone, and it stays completely free.",
+      "highlights": [
+        "Over 500 brushes with tagging and presets",
+        "Full layer stack with masks and filters",
+        "Pressure-sensitive stylus support",
+        "Animation and storyboard timeline"
+      ],
+      "whatsNew": "Brush engine performance improved for large canvases, colour smudge is smoother, and the tablet HUD can be moved to any edge.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=org.krita&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/krita.svg",
+      "storeResolvedFrom": "https://f-droid.org/packages/org.kde.krita/",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=org.krita&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/_OrKvCvTU10UNkMyayAvF1wyzYMFyB34H9jouQ7h9DrH4W_yYPqwLSqf1bRwch0N6JMH3P4Rc_X4XldgovbEWA=s0-br30",
+        "fetched": "2026-10-21T15:40:46+00:00"
+      }
+    },
+    {
+      "slug": "limbo",
+      "name": "Limbo",
+      "tagline": "Silence, shadow and puzzle",
+      "type": "game",
+      "category": "puzzle",
+      "developer": "Playdead",
+      "version": "1.3.6",
+      "size": "58.9 MB",
+      "android": "Android 5.0+",
+      "rating": 4.5,
+      "ratings": 96412,
+      "downloads": "5M+",
+      "updated": "2026-07-30",
+      "released": "2010-07-21",
+      "price": "Paid",
+      "contentRating": "Teen",
+      "motif": "shadow",
+      "palette": [
+        "#2b0d0d",
+        "#DC2626"
+      ],
+      "icon": "/static/img/icons/real/limbo.png",
+      "art": "/static/img/art/limbo.svg",
+      "screenshots": [
+        "/static/img/shots/limbo-1.svg",
+        "/static/img/shots/limbo-2.svg",
+        "/static/img/shots/limbo-3.svg",
+        "/static/img/shots/limbo-4.svg"
+      ],
+      "description": "Limbo is a monochrome puzzle platformer with a child, a shadow and forty levels of deceptive machinery. There is no text, no tutorial and no hand-holding, just an atmosphere that made an entire genre look the way it does.",
+      "highlights": [
+        "Forty hand-built levels with hidden mechanics",
+        "Iconic silhouette art and sound design",
+        "Playable on phones and tablets offline",
+        "A once-in-a-generation indie classic"
+      ],
+      "whatsNew": "Performance on high-refresh displays was improved, the final chapter runs slightly faster, and a new accessibility option reduces screen shake.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.playdead.limbo.full&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/limbo.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.playdead.limbo",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.playdead.limbo.full&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/Lo7w-w7NzCvSxNcPTxhDplX4gq_QCmr5ycjnSKqjD_YH2FAi_NnJOKCjbCLt9rBZ5uywopxFRgORchf8iMpUUHM=s0-br30",
+        "fetched": "2026-10-21T15:41:06+00:00"
+      }
+    },
+    {
+      "slug": "material-files",
+      "name": "Material Files",
+      "tagline": "A modern file manager",
+      "type": "app",
+      "category": "utilities",
+      "developer": "Zhang Hai",
+      "version": "1.13.1",
+      "size": "9.8 MB",
+      "android": "Android 6.0+",
+      "rating": 4.6,
+      "ratings": 2941,
+      "downloads": "1M+",
+      "updated": "2026-08-21",
+      "released": "2019-08-27",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "folder",
+      "palette": [
+        "#0d2b1a",
+        "#8BC34A"
+      ],
+      "icon": "/static/img/icons/real/material-files.png",
+      "art": "/static/img/art/material-files.svg",
+      "screenshots": [
+        "/static/img/shots/material-files-1.svg",
+        "/static/img/shots/material-files-2.svg",
+        "/static/img/shots/material-files-3.svg",
+        "/static/img/shots/material-files-4.svg"
+      ],
+      "description": "Material Files is a file manager that respects the design language of your phone. It browses internal storage, SD cards, SMB shares and FTP servers through one consistent, gesture-driven interface.",
+      "highlights": [
+        "Material You design that follows your wallpaper",
+        "Search, filters and a breadcrumb path bar",
+        "Archive, checksum and text preview tools",
+        "Support for SMB, SFTP and FTP locations"
+      ],
+      "whatsNew": "Thumbnail caching is faster on large folders, SMB connections now survive screen rotation, and the file preview sheet gained a dark-only mode.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/material-files.svg",
+      "storeResolvedFrom": "https://f-droid.org/packages/com.google.android.materialfiles/",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=me.zhanghai.android.files&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/xWtC3KiZ6ln9tsDpvTKQX0n3luSHhOWODHDFZG6ROUfVN1KPj61dhGFDm8ar-uHXF5-XHkfp-CfKI-_Mgma2DoQ=s0-br30",
+        "fetched": "2026-10-21T15:40:42+00:00"
+      }
+    },
+    {
+      "slug": "minecraft",
+      "name": "Minecraft",
+      "tagline": "The blocky world",
+      "type": "game",
+      "category": "sandbox",
+      "developer": "Mojang",
+      "version": "1.21.72",
+      "size": "148.6 MB",
+      "android": "Android 8.0+",
+      "rating": 4.5,
+      "ratings": 18203311,
+      "downloads": "500M+",
+      "updated": "2026-09-18",
+      "released": "2011-11-18",
+      "price": "Paid",
+      "contentRating": "Everyone",
+      "motif": "cube",
+      "palette": [
+        "#1c3412",
+        "#5DBB63"
+      ],
+      "icon": "/static/img/icons/real/minecraft.png",
+      "art": "/static/img/art/minecraft.svg",
+      "screenshots": [
+        "/static/img/shots/minecraft-1.svg",
+        "/static/img/shots/minecraft-2.svg",
+        "/static/img/shots/minecraft-3.svg",
+        "/static/img/shots/minecraft-4.svg"
+      ],
+      "description": "Minecraft is the sandbox that rewrote what games could be: an infinite procedural world of blocks to break and place, a survival mode with hunger and mobs, and a creative mode for building whatever you can imagine. Redstone included.",
+      "highlights": [
+        "Infinite procedural world to explore and shape",
+        "Survival, creative and adventure modes",
+        "Multiplayer realms with friends",
+        "Redstone engineering and mob-based farms"
+      ],
+      "whatsNew": "Caves and cliffs generation was refined, the touch control scheme was reworked, and Bedrock performance improved substantially on mobile hardware.",
+      "permissions": [
+        "Storage",
+        "Network",
+        "Microphone"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/minecraft.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+        "image": "https://play-lh.googleusercontent.com/tI4StRSPVhpGJH5R013naszLUawOjao1ya8FvyaNO7XY_cJFHFqo1EFaEJv_7zz3rRJ5lEpLiw14ZqQLCOYc=s0-br30",
+        "fetched": "2026-10-21T15:41:03+00:00"
+      }
+    },
+    {
+      "slug": "monument-valley",
+      "name": "Monument Valley",
+      "tagline": "Architecture you can walk through",
+      "type": "game",
+      "category": "puzzle",
+      "developer": "ustwo games",
+      "version": "3.1.1",
+      "size": "64.2 MB",
+      "android": "Android 7.0+",
+      "rating": 4.6,
+      "ratings": 218744,
+      "downloads": "10M+",
+      "updated": "2026-09-20",
+      "released": "2014-04-02",
+      "price": "Free with in-app purchases",
+      "contentRating": "Everyone",
+      "motif": "tower",
+      "palette": [
+        "#161034",
+        "#A78BFA"
+      ],
+      "icon": "/static/img/icons/real/monument-valley.png",
+      "art": "/static/img/art/monument-valley.svg",
+      "screenshots": [
+        "/static/img/shots/monument-valley-1.svg",
+        "/static/img/shots/monument-valley-2.svg",
+        "/static/img/shots/monument-valley-3.svg",
+        "/static/img/shots/monument-valley-4.svg"
+      ],
+      "description": "Monument Valley is a quiet, impossibly beautiful puzzle game about a princess and an endless set of monuments. By rotating the world you align pathways that should never meet, turning perspective into the whole mechanic.",
+      "highlights": [
+        "Optically impossible architecture as the puzzle",
+        "Hand-crafted levels with no timers or fail state",
+        "Award-winning art direction and score",
+        "Monument Valley 2 and two expansions included"
+      ],
+      "whatsNew": "The remastered chapter renders sharply on high-density screens, touch controls are slightly more responsive, and the game now remembers per-level progress after reinstalls.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/monument-valley.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley",
+        "image": "https://play-lh.googleusercontent.com/PSOC0jku9VwvqwGYQvYGmh9BcsCkc-raSp94t1CzOHi6v7MtC-CgqY0MJckRXX2uNCJ7S4p1eWs1d9uACuPfjw=s0-br30",
+        "fetched": "2026-10-21T15:40:56+00:00"
+      }
+    },
+    {
+      "slug": "newpipe",
+      "name": "NewPipe",
+      "tagline": "Lightweight YouTube client",
+      "type": "app",
+      "category": "multimedia",
+      "developer": "Schabi",
+      "version": "0.28.2",
+      "size": "18.9 MB",
+      "android": "Android 4.4+",
+      "rating": 4.6,
+      "ratings": 12903,
+      "downloads": "5M+",
+      "updated": "2026-09-19",
+      "released": "2018-03-12",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "play",
+      "palette": [
+        "#2a1200",
+        "#E84118"
+      ],
+      "icon": "/static/img/icons/real/newpipe.png",
+      "art": "/static/img/art/newpipe.svg",
+      "screenshots": [
+        "/static/img/shots/newpipe-1.svg",
+        "/static/img/shots/newpipe-2.svg",
+        "/static/img/shots/newpipe-3.svg",
+        "/static/img/shots/newpipe-4.svg"
+      ],
+      "description": "NewPipe extracts streams from YouTube and hands them to a player you control. No ads, no background tracking, no Google services required, and a download button that stores anything offline in a single tap.",
+      "highlights": [
+        "Ad-free background playback",
+        "One-tap offline downloads in any format",
+        "Runs without Google Play Services",
+        "Piped and Invidious instance support"
+      ],
+      "whatsNew": "Playback of age-restricted content via logged-in cookies works again, the queue gained drag and drop, and app start time dropped noticeably.",
+      "permissions": [
+        "Internet",
+        "Storage",
+        "Notifications"
+      ],
+      "store": "https://f-droid.org/packages/org.schabi.newpipe/",
+      "storeName": "F-Droid",
+      "trending": false,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/newpipe.svg",
+      "storeResolvedFrom": "https://f-droid.org/packages/org.schabi.newpipe/",
+      "iconSource": {
+        "page": "https://f-droid.org/packages/org.schabi.newpipe/",
+        "image": "https://f-droid.org/repo/org.schabi.newpipe/en-US/icon_OHy4y1W-fJCNhHHOBCM9V_cxZNJJgbcNkB-x7UDTY9Q=.png",
+        "fetched": "2026-10-21T15:40:22+00:00"
+      }
+    },
+    {
+      "slug": "newpipe-sample-mod",
+      "name": "NewPipe Sample Mod",
+      "tagline": "Demo entry - shows how NOIR presents a community build",
+      "type": "mod",
+      "isMod": true,
+      "isDemo": true,
+      "modOf": "newpipe",
+      "category": "multimedia",
+      "developer": "NOIR demo lab",
+      "version": "0.9.0-demo",
+      "size": "24.6 MB",
+      "android": "Android 6.0+",
+      "rating": 0,
+      "ratings": 0,
+      "downloads": "0",
+      "updated": "2026-10-18",
+      "released": "2026-10-18",
+      "price": "Free",
+      "contentRating": "Teen",
+      "motif": "play",
+      "palette": [
+        "#0a0c14",
+        "#7fd1ff"
+      ],
+      "icon": "/static/img/icons/newpipe-sample-mod.svg",
+      "iconFallback": "/static/img/icons/newpipe-sample-mod.svg",
+      "art": "/static/img/art/newpipe-sample-mod.svg",
+      "screenshots": [
+        "/static/img/shots/newpipe-sample-mod-1.svg",
+        "/static/img/shots/newpipe-sample-mod-2.svg",
+        "/static/img/shots/newpipe-sample-mod-3.svg",
+        "/static/img/shots/newpipe-sample-mod-4.svg"
+      ],
+      "description": "This is a demo listing, not a real build. It exists so the NOIR mod page can be reviewed end to end: a mod is listed next to the app it is based on, every change is spelled out, the install steps are written down, and the download stays disabled until a real, verified build exists.",
+      "highlights": [
+        "Sample entry - nothing is published and nothing can be installed",
+        "Shows the mod feature list, build variants and install steps",
+        "Links back to the official listing of the base app"
+      ],
+      "whatsNew": "Demo entry published to document the mod page layout. The download button stays disabled until a real build URL is configured.",
+      "permissions": [
+        "Internet",
+        "Storage"
+      ],
+      "store": "https://f-droid.org/packages/org.schabi.newpipe/",
+      "storeName": "F-Droid",
+      "packageId": "sample.package.id",
+      "buildType": "demo",
+      "notes": "Sample entry used to demonstrate the mod page layout. No build is published.",
+      "download": {
+        "url": "",
+        "label": "No build published",
+        "unavailableReason": "This is a demo entry. NOIR never hosts installers, so no build is published for it."
+      },
+      "modDisclaimer": "Demo listing. NOIR does not build or host modded APKs. This entry documents the mod page layout only, and the download button stays disabled until a real, verified build URL is configured.",
+      "modFeatures": [
+        {
+          "name": "Example label: background playback controls",
+          "detail": "Shows how a mod lists the changes it adds on top of the official app. This demo is an app-type example, so its labels differ from the game demo."
+        },
+        {
+          "name": "Example label: offline downloads",
+          "detail": "Second example row, so the feature list can be reviewed with more than one entry."
+        },
+        {
+          "name": "Example label: interface tweaks",
+          "detail": "Third example row, mirroring the 'what does this build change' pattern."
+        }
+      ],
+      "modVariants": [
+        {
+          "name": "Sample universal build",
+          "version": "0.9.0-demo",
+          "size": "24.6 MB",
+          "arch": "arm64-v8a"
+        },
+        {
+          "name": "Sample split build",
+          "version": "0.9.0-demo",
+          "size": "26.2 MB",
+          "arch": "arm64-v8a + armeabi-v7a"
+        }
+      ],
+      "modInstallSteps": [
+        "Install the base app from the official store - the link next to this panel opens it.",
+        "Check the build you want in the variants table above.",
+        "Install the mod build over the base app, or side-load it next to it.",
+        "Open the app once so it can write its own settings."
+      ],
+      "modFaq": [
+        {
+          "question": "Is this a real mod?",
+          "answer": "No. It is a demo entry that documents the layout NOIR uses for mod listings."
+        },
+        {
+          "question": "Where is the download?",
+          "answer": "There is none. NOIR does not host installers, and the button stays disabled until a build URL is configured."
+        }
+      ]
+    },
+    {
+      "slug": "osmand",
+      "name": "OsmAnd",
+      "tagline": "Offline maps and navigation",
+      "type": "app",
+      "category": "travel",
+      "developer": "OsmAnd",
+      "version": "4.9.10",
+      "size": "86.9 MB",
+      "android": "Android 7.0+",
+      "rating": 4.6,
+      "ratings": 24107,
+      "downloads": "10M+",
+      "updated": "2026-10-03",
+      "released": "2010-10-26",
+      "price": "Free with in-app purchases",
+      "contentRating": "Everyone",
+      "motif": "map",
+      "palette": [
+        "#0d3318",
+        "#4CAF50"
+      ],
+      "icon": "/static/img/icons/real/osmand.png",
+      "art": "/static/img/art/osmand.svg",
+      "screenshots": [
+        "/static/img/shots/osmand-1.svg",
+        "/static/img/shots/osmand-2.svg",
+        "/static/img/shots/osmand-3.svg",
+        "/static/img/shots/osmand-4.svg"
+      ],
+      "description": "OsmAnd turns your phone into a proper offline navigator with contour lines, cycle routes, hiking trails and detailed lane guidance. Maps download on demand and stay usable with no signal at all.",
+      "highlights": [
+        "Vector offline maps with contour lines",
+        "Car, bike, foot and ski routing profiles",
+        "Live traffic overlays and lane guidance",
+        "OpenStreetMap based and plugin driven"
+      ],
+      "whatsNew": "Route recalculation is faster, elevation profiles render more smoothly, and the map style editor gained new terrain shading options.",
+      "permissions": [
+        "Location",
+        "Storage",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=net.osmand.plus",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/osmand.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=net.osmand.plus",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=net.osmand.plus",
+        "image": "https://play-lh.googleusercontent.com/NsZPwylUmRusxIRmcC3NyFnOyGWTTnTVNO0nAlL5UuYHngVez0ycwP3vy6VA0pSUSk_wI1m5hpaFlcFufj916g=s0-br30",
+        "fetched": "2026-10-21T15:40:43+00:00"
+      }
+    },
+    {
+      "slug": "shizuku",
+      "name": "Shizuku",
+      "tagline": "Full system API, no root",
+      "type": "app",
+      "category": "utilities",
+      "developer": "Rikka Apps",
+      "version": "13.6.0",
+      "size": "7.4 MB",
+      "android": "Android 6.0+",
+      "rating": 4.5,
+      "ratings": 31672,
+      "downloads": "10M+",
+      "updated": "2026-08-11",
+      "released": "2018-11-11",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "bolt",
+      "palette": [
+        "#3a2704",
+        "#F4A12C"
+      ],
+      "icon": "/static/img/icons/real/shizuku.png",
+      "art": "/static/img/art/shizuku.svg",
+      "screenshots": [
+        "/static/img/shots/shizuku-1.svg",
+        "/static/img/shots/shizuku-2.svg",
+        "/static/img/shots/shizuku-3.svg",
+        "/static/img/shots/shizuku-4.svg"
+      ],
+      "description": "Shizuku lets selected apps use system-level privileges through an ADB-connected service, without ever rooting the device. It is the quiet enabler behind a lot of modern power-user customisation tools.",
+      "highlights": [
+        "Grant system permissions without root",
+        "Works over wireless debugging",
+        "Restartable service with a clear status widget",
+        "Open source and ad free"
+      ],
+      "whatsNew": "Wireless debugging pairing is more reliable, the service restarts faster after reboots, and the UI now explains each permission in plain language.",
+      "permissions": [
+        "Network",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": false,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/shizuku.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api",
+        "image": "https://play-lh.googleusercontent.com/vqtoZBfwl9hlfwhD3153xfdB7WbK87KQKHhznW9HkrBHQVFrdhMkpcHvlKlLLYEsAjhgDr9Yq_lyCk2mGxvpybE=s0-br30",
+        "fetched": "2026-10-21T15:40:24+00:00"
+      }
+    },
+    {
+      "slug": "signal",
+      "name": "Signal",
+      "tagline": "Private messaging, redefined",
+      "type": "app",
+      "category": "communication",
+      "developer": "Signal Foundation",
+      "version": "7.42.0",
+      "size": "74.8 MB",
+      "android": "Android 7.0+",
+      "rating": 4.6,
+      "ratings": 412853,
+      "downloads": "50M+",
+      "updated": "2026-10-06",
+      "released": "2014-07-21",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "shield",
+      "palette": [
+        "#0b3d2e",
+        "#25D366"
+      ],
+      "icon": "/static/img/icons/real/signal.png",
+      "art": "/static/img/art/signal.svg",
+      "screenshots": [
+        "/static/img/shots/signal-1.svg",
+        "/static/img/shots/signal-2.svg",
+        "/static/img/shots/signal-3.svg",
+        "/static/img/shots/signal-4.svg"
+      ],
+      "description": "Signal is a free, open-source messenger that puts end-to-end encryption on every conversation by default. Messages, calls and group chats are protected with a protocol that is documented publicly and audited by outside researchers, so you never have to take a privacy promise on faith.",
+      "highlights": [
+        "End-to-end encrypted text, voice and video calls",
+        "Message history that stays on your device, not a server",
+        "Groups up to 1000 with shared stories and polls",
+        "Disappearing messages, sealed chats and screen lock"
+      ],
+      "whatsNew": "Smarter message search now understands phrases and people, story replies are threaded, and call quality on slow networks has improved noticeably. Several battery regressions were also fixed.",
+      "permissions": [
+        "Camera",
+        "Microphone",
+        "Contacts",
+        "Notifications",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": true,
+      "hero": true,
+      "iconFallback": "/static/img/icons/signal.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+        "image": "https://play-lh.googleusercontent.com/HXEs85Okatm4_lZMmCaLFk3iXQ6_lrr00i8nsxaqBRSy6VGnsP7F50dKUfrO37Sj0nxtzSjMpKbjgWh6d0PTyEA=s0-br30",
+        "fetched": "2026-10-21T15:40:20+00:00"
+      }
+    },
+    {
+      "slug": "spotify",
+      "name": "Spotify",
+      "tagline": "Music for every moment",
+      "type": "app",
+      "category": "multimedia",
+      "developer": "Spotify AB",
+      "version": "9.1.42.583",
+      "size": "41.2 MB",
+      "android": "Android 7.0+",
+      "rating": 4.3,
+      "ratings": 34882110,
+      "downloads": "5B+",
+      "updated": "2026-10-15",
+      "released": "2008-10-07",
+      "price": "Free with in-app purchases",
+      "contentRating": "Teen",
+      "motif": "wave",
+      "palette": [
+        "#0b3f1c",
+        "#1DB954"
+      ],
+      "icon": "/static/img/icons/real/spotify.jpg",
+      "art": "/static/img/art/spotify.svg",
+      "screenshots": [
+        "/static/img/shots/spotify-1.svg",
+        "/static/img/shots/spotify-2.svg",
+        "/static/img/shots/spotify-3.svg",
+        "/static/img/shots/spotify-4.svg"
+      ],
+      "description": "Spotify turns a phone into a portable jukebox with millions of tracks, curated playlists and personalised mixes that adapt to your listening. Offline downloads keep the music flowing on a plane or on the underground.",
+      "highlights": [
+        "Millions of tracks and offline downloads",
+        "Personalised mixes that learn as you listen",
+        "Group sessions for shared listening",
+        "Lossless option on the highest tier"
+      ],
+      "whatsNew": "The home screen now surfaces fewer, better picks, car mode gained quick-play rows, and audio quality toggles apply without restarting playback.",
+      "permissions": [
+        "Microphone",
+        "Notifications",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.spotify.music",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/spotify.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.spotify.music",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.spotify.music",
+        "image": "https://play-lh.googleusercontent.com/IzQgYCcnCFCD08GR-3bdtcT8xzOvrNkC84avGT5CwTX2VIqmTmKKJcP_Cd4JoBOdmCMlTndlOzV6hrthg2fOWA=s0-br30",
+        "fetched": "2026-10-21T15:40:23+00:00"
+      }
+    },
+    {
+      "slug": "stardew-valley",
+      "name": "Stardew Valley",
+      "tagline": "Farm, fish, be friends",
+      "type": "game",
+      "category": "simulation",
+      "developer": "Chucklefish",
+      "version": "1.6.9",
+      "size": "54.8 MB",
+      "android": "Android 5.0+",
+      "rating": 4.8,
+      "ratings": 284416,
+      "downloads": "5M+",
+      "updated": "2026-09-22",
+      "released": "2016-02-26",
+      "price": "Paid",
+      "contentRating": "Everyone",
+      "motif": "leaf",
+      "palette": [
+        "#123312",
+        "#A3E635"
+      ],
+      "icon": "/static/img/icons/real/stardew-valley.png",
+      "art": "/static/img/art/stardew-valley.svg",
+      "screenshots": [
+        "/static/img/shots/stardew-valley-1.svg",
+        "/static/img/shots/stardew-valley-2.svg",
+        "/static/img/shots/stardew-valley-3.svg",
+        "/static/img/shots/stardew-valley-4.svg"
+      ],
+      "description": "Stardew Valley is the gentle reset button: inherit a tired farm, then spend your days growing crops, fishing, mining, befriending the village and quietly rebuilding a life. It runs offline and asks for nothing but a little time.",
+      "highlights": [
+        "Farming, fishing, mining and foraging loops",
+        "Fourteen friendshipable characters with real arcs",
+        "Deep crafting and a seasonal festival calendar",
+        "Multiplayer and split-screen support"
+      ],
+      "whatsNew": "The 1.6 update expanded the Ginger Island content, added farm buildings to decorate, and improved controller and split-screen handling.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/stardew-valley.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley",
+        "image": "https://play-lh.googleusercontent.com/RwIUSwgsFOjwoKAdwCgpajGa6DrS44muStOLe_EIAA4mdzYMHR2N8fd4TbXYKSEVjD9bH63OPo5fFIrHqP_c_A=s0-br30",
+        "fetched": "2026-10-21T15:41:12+00:00"
+      }
+    },
+    {
+      "slug": "subway-surfers",
+      "name": "Subway Surfers",
+      "tagline": "Endless running, one more go",
+      "type": "game",
+      "category": "arcade",
+      "developer": "Kiloo",
+      "version": "1.118.0",
+      "size": "142.3 MB",
+      "android": "Android 6.0+",
+      "rating": 4.3,
+      "ratings": 37120411,
+      "downloads": "5B+",
+      "updated": "2026-10-10",
+      "released": "2012-05-24",
+      "price": "Free with in-app purchases",
+      "contentRating": "Everyone",
+      "motif": "train",
+      "palette": [
+        "#3d0f18",
+        "#F94144"
+      ],
+      "icon": "/static/img/icons/real/subway-surfers.png",
+      "art": "/static/img/art/subway-surfers.svg",
+      "screenshots": [
+        "/static/img/shots/subway-surfers-1.svg",
+        "/static/img/shots/subway-surfers-2.svg",
+        "/static/img/shots/subway-surfers-3.svg",
+        "/static/img/shots/subway-surfers-4.svg"
+      ],
+      "description": "Subway Surfers is the endless runner that defined the genre on mobile. Dash through three rail lines, dodge trains, vault barriers and collect coins at impossible speed, then unlock boards and hoverboards to push further.",
+      "highlights": [
+        "Endless three-lane runner with daily challenges",
+        "Character, board and hoverboard upgrades",
+        "Tournament leaderboards and mystery boxes",
+        "Playable offline once the assets download"
+      ],
+      "whatsNew": "A new seasonal map adds stunts and ramps, the daily challenge system now offers bonus rewards, and loading times dropped on mid-range devices.",
+      "permissions": [
+        "Storage",
+        "Network",
+        "Notifications"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=en&gl=US",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/subway-surfers.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurfers",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=en&gl=US",
+        "image": "https://play-lh.googleusercontent.com/G1eIJ3yor1yW20izrYjOfCzHgVkRtewlfPFG9CEFTHzSI2m0Lwds_Y1xYgeg21CFok_UXrol-ox2IwqL4JMrLQ=s0-br30",
+        "fetched": "2026-10-21T15:40:55+00:00"
+      }
+    },
+    {
+      "slug": "subway-surfers-demo-mod",
+      "name": "Subway Surfers Sample Mod",
+      "tagline": "Demo listing - shows a game mod with labelled features",
+      "type": "mod",
+      "isMod": true,
+      "isDemo": true,
+      "modOf": "subway-surfers",
+      "category": "arcade",
+      "developer": "NOIR demo lab",
+      "version": "0.9.0-demo",
+      "size": "82.4 MB",
+      "android": "Android 7.0+",
+      "rating": 0,
+      "ratings": 0,
+      "downloads": "0",
+      "updated": "2026-10-20",
+      "released": "2026-10-20",
+      "price": "Free",
+      "contentRating": "Teen",
+      "motif": "play",
+      "palette": [
+        "#120a1c",
+        "#c48cff"
+      ],
+      "icon": "/static/img/icons/subway-surfers-demo-mod.svg",
+      "iconFallback": "/static/img/icons/subway-surfers-demo-mod.svg",
+      "art": "/static/img/art/subway-surfers-demo-mod.svg",
+      "screenshots": [
+        "/static/img/shots/subway-surfers-demo-mod-1.svg",
+        "/static/img/shots/subway-surfers-demo-mod-2.svg",
+        "/static/img/shots/subway-surfers-demo-mod-3.svg",
+        "/static/img/shots/subway-surfers-demo-mod-4.svg"
+      ],
+      "description": "A demo entry, not a real build. It exists so the NOIR mod section can be reviewed end to end for a game: the listing sits next to the official app, the feature labels are spelled out one by one, the build variants and install steps are written down, and the download stays disabled because no build is published.",
+      "highlights": [
+        "Example mod feature labels: Premium unlocked, Unlimited money, Ad-free",
+        "Shows build variants, install steps and FAQ on a game listing",
+        "Links back to the official Subway Surfers listing on Google Play"
+      ],
+      "whatsNew": "Demo entry published to document the mod page layout for games. The download button stays disabled until a real build URL is configured.",
+      "permissions": [
+        "Internet",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=en&gl=US",
+      "storeName": "Google Play",
+      "packageId": "sample.package.id",
+      "buildType": "demo",
+      "notes": "Sample entry used to demonstrate the mod page layout for games. No build is published.",
+      "download": {
+        "url": "",
+        "label": "No build published",
+        "unavailableReason": "This is a demo listing. NOIR never hosts installers, so no build is published for it."
+      },
+      "modDisclaimer": "Demo listing. NOIR does not build or host modded APKs and does not verify third-party builds. This entry documents the mod page layout only, and the download button stays disabled until a real build URL is configured.",
+      "modFeatures": [
+        {
+          "name": "Premium unlocked",
+          "detail": "Example label - a build that unlocks the premium tier of the base game. Shown here to demonstrate the Premium unlocked feature field."
+        },
+        {
+          "name": "Unlimited money",
+          "detail": "Example label - a build that grants unlimited in-game currency. Shown here to demonstrate the Unlimited money feature field."
+        },
+        {
+          "name": "Ad-free",
+          "detail": "Example label - a build with the ad breaks removed. Shown here to demonstrate a third kind of mod feature."
+        }
+      ],
+      "modVariants": [
+        {
+          "name": "Sample universal build",
+          "version": "0.9.0-demo",
+          "size": "82.4 MB",
+          "arch": "arm64-v8a"
+        },
+        {
+          "name": "Sample split build",
+          "version": "0.9.0-demo",
+          "size": "88.1 MB",
+          "arch": "arm64-v8a + armeabi-v7a"
+        }
+      ],
+      "modInstallSteps": [
+        "Install the official game from its store listing first, then confirm it runs on your device.",
+        "Remove the official install if the build you use asks for a different package id.",
+        "Install the mod build only from a source you trust, and check the package id before opening it.",
+        "Reopen the game. The example feature labels above are what a real listing would list next to each build."
+      ],
+      "modFaq": [
+        {
+          "name": "Is this a real mod?",
+          "detail": "No. It is a demo entry that documents the layout NOIR uses for mod listings."
+        },
+        {
+          "name": "Where is the download?",
+          "detail": "There is none. NOIR does not host installers, and the button stays disabled until a build URL is configured."
+        },
+        {
+          "name": "Is the original game still on the store?",
+          "detail": "Yes. The original listing is linked from this page, and the demo build is not related to the official publisher."
+        }
+      ]
+    },
+    {
+      "slug": "telegram",
+      "name": "Telegram",
+      "tagline": "Fast cloud messaging",
+      "type": "app",
+      "category": "communication",
+      "developer": "Telegram FZ-LLC",
+      "version": "11.6.1",
+      "size": "86.2 MB",
+      "android": "Android 7.0+",
+      "rating": 4.4,
+      "ratings": 18740213,
+      "downloads": "500M+",
+      "updated": "2026-10-11",
+      "released": "2013-08-20",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "paperplane",
+      "palette": [
+        "#0a3d62",
+        "#2AABEE"
+      ],
+      "icon": "/static/img/icons/real/telegram.png",
+      "art": "/static/img/art/telegram.svg",
+      "screenshots": [
+        "/static/img/shots/telegram-1.svg",
+        "/static/img/shots/telegram-2.svg",
+        "/static/img/shots/telegram-3.svg",
+        "/static/img/shots/telegram-4.svg"
+      ],
+      "description": "Telegram delivers messages faster than almost anything else on Android, with chats, channels and bots that sync instantly across every device you own. Chats are stored in the cloud so a new phone is ready in seconds, while secret chats offer an extra layer of end-to-end encryption.",
+      "highlights": [
+        "Cloud sync across phone, tablet, desktop and web",
+        "Channels for broadcast and large communities",
+        "File sharing up to 2 GB per file",
+        "Secret chats with device-bound encryption"
+      ],
+      "whatsNew": "Story sharing now supports longer clips, chat folders gained smarter sorting, and the in-app video player supports background audio on Android 14.",
+      "permissions": [
+        "Camera",
+        "Microphone",
+        "Contacts",
+        "Notifications",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/telegram.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+        "image": "https://play-lh.googleusercontent.com/PyZ3akMGXPV0tKKirKNwfO--PSQW3FHR6rD_H9mAaukZ8LiHyYFuBLeU8UZ2ok6r5SP79-3prkfybWKh98AZAD0=s0-br30",
+        "fetched": "2026-10-21T15:40:20+00:00"
+      }
+    },
+    {
+      "slug": "termux",
+      "name": "Termux",
+      "tagline": "A real shell on Android",
+      "type": "app",
+      "category": "developer",
+      "developer": "Termux",
+      "version": "0.119.0",
+      "size": "23.1 MB",
+      "android": "Android 7.0+",
+      "rating": 4.7,
+      "ratings": 28104,
+      "downloads": "10M+",
+      "updated": "2026-09-24",
+      "released": "2014-03-24",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "terminal",
+      "palette": [
+        "#0d2a12",
+        "#4ADE80"
+      ],
+      "icon": "/static/img/icons/real/termux.png",
+      "art": "/static/img/art/termux.svg",
+      "screenshots": [
+        "/static/img/shots/termux-1.svg",
+        "/static/img/shots/termux-2.svg",
+        "/static/img/shots/termux-3.svg",
+        "/static/img/shots/termux-4.svg"
+      ],
+      "description": "Termux gives you a real Linux shell on your phone, with a package manager, a full toolchain and no root required. Edit files over SSH, run Python and Node, compile projects and script your device exactly the way you do on a desktop.",
+      "highlights": [
+        "Full package manager with thousands of packages",
+        "SSH, git, python, node and C toolchain included",
+        "Keyboard-friendly, colour-aware terminal",
+        "Session support with tmux"
+      ],
+      "whatsNew": "Package installs are faster, the terminal emulator handles wide characters better, and the widget API gained a couple of new actions.",
+      "permissions": [
+        "Storage",
+        "Notifications"
+      ],
+      "store": "https://f-droid.org/packages/com.termux/",
+      "storeName": "F-Droid",
+      "trending": true,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/termux.svg",
+      "storeResolvedFrom": "https://f-droid.org/packages/com.termux/",
+      "iconSource": {
+        "page": "https://f-droid.org/packages/com.termux/",
+        "image": "https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png",
+        "fetched": "2026-10-21T15:40:25+00:00"
+      }
+    },
+    {
+      "slug": "terraria",
+      "name": "Terraria",
+      "tagline": "Dig, build, survive, explore",
+      "type": "game",
+      "category": "sandbox",
+      "developer": "505 Games",
+      "version": "1.4.4.9",
+      "size": "93.1 MB",
+      "android": "Android 6.0+",
+      "rating": 4.7,
+      "ratings": 148210,
+      "downloads": "10M+",
+      "updated": "2026-09-05",
+      "released": "2011-05-16",
+      "price": "Paid",
+      "contentRating": "Teen",
+      "motif": "sword",
+      "palette": [
+        "#123a12",
+        "#84CC16"
+      ],
+      "icon": "/static/img/icons/real/terraria.png",
+      "art": "/static/img/art/terraria.svg",
+      "screenshots": [
+        "/static/img/shots/terraria-1.svg",
+        "/static/img/shots/terraria-2.svg",
+        "/static/img/shots/terraria-3.svg",
+        "/static/img/shots/terraria-4.svg"
+      ],
+      "description": "Terraria is a 2D sandbox adventure of enormous scope: mine hundreds of blocks deep, build a fortress, tame the surface, descend into a hostile underworld and survive bosses that genuinely deserve the fight. The mobile port carries the full console experience.",
+      "highlights": [
+        "Massive 2D world with hundreds of enemies and bosses",
+        "Crafting, building, taming and fishing",
+        "Full multiplayer and Journey mode",
+        "Controller support and cloud saves"
+      ],
+      "whatsNew": "Mobile controls got a fresh layout option, world generation is smoother on large maps, and Journey mode received new difficulty tiers.",
+      "permissions": [
+        "Storage",
+        "Network"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.and.games505.TerrariaPaid",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/terraria.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.and.games505.TerrariaPaid",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.and.games505.TerrariaPaid",
+        "image": "https://play-lh.googleusercontent.com/47ylywbi2wh_pogL2XorXhg5HEbRDW1k_IqacSd3_2t-6sh7PIniak-k2lhTE0Y360TmO0coyJ7U_Ea_g-ym=s0-br30",
+        "fetched": "2026-10-21T15:41:02+00:00"
+      }
+    },
+    {
+      "slug": "vlc",
+      "name": "VLC",
+      "tagline": "Plays everything",
+      "type": "app",
+      "category": "multimedia",
+      "developer": "VideoLAN",
+      "version": "3.6.0",
+      "size": "51.7 MB",
+      "android": "Android 5.0+",
+      "rating": 4.4,
+      "ratings": 2184577,
+      "downloads": "500M+",
+      "updated": "2026-09-28",
+      "released": "2011-02-11",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "cone",
+      "palette": [
+        "#2b1f05",
+        "#F5A623"
+      ],
+      "icon": "/static/img/icons/real/vlc.png",
+      "art": "/static/img/art/vlc.svg",
+      "screenshots": [
+        "/static/img/shots/vlc-1.svg",
+        "/static/img/shots/vlc-2.svg",
+        "/static/img/shots/vlc-3.svg",
+        "/static/img/shots/vlc-4.svg"
+      ],
+      "description": "VLC plays almost every codec you will ever meet, from an old AVI on a USB stick to a 4K remux with subtitles. It is the last player app you need on Android, and it is completely free with no ads.",
+      "highlights": [
+        "Plays virtually every audio and video format",
+        "Hardware-accelerated 4K decoding",
+        "Subtitle support with custom styling",
+        "Stream to Chromecast, DLNA and other targets"
+      ],
+      "whatsNew": "Playback of high-bitrate HEVC files is smoother, the subtitle editor got a redesign, and network streams reconnect faster on flaky Wi-Fi.",
+      "permissions": [
+        "Storage",
+        "Notifications",
+        "Microphone"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=org.videolan.vlc",
+      "storeName": "Google Play",
+      "trending": true,
+      "featured": true,
+      "editorChoice": true,
+      "hero": false,
+      "iconFallback": "/static/img/icons/vlc.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=org.videolan.vlc",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=org.videolan.vlc",
+        "image": "https://play-lh.googleusercontent.com/BG5YwziGHjh0wvWg6VO9c3iprYa3vFww1CnNqPvFszUVxcY4yB29dy7t2jsLwwI4jAqX08_--12FmMxgNG1JFg=s0-br30",
+        "fetched": "2026-10-21T15:40:22+00:00"
+      }
+    },
+    {
+      "slug": "whatsapp",
+      "name": "WhatsApp",
+      "tagline": "Simple, reliable messaging",
+      "type": "app",
+      "category": "communication",
+      "developer": "WhatsApp LLC",
+      "version": "2.25.16.74",
+      "size": "112.5 MB",
+      "android": "Android 7.0+",
+      "rating": 4.3,
+      "ratings": 148900000,
+      "downloads": "5B+",
+      "updated": "2026-10-09",
+      "released": "2012-04-21",
+      "price": "Free",
+      "contentRating": "Everyone",
+      "motif": "phone",
+      "palette": [
+        "#0d3b22",
+        "#25D366"
+      ],
+      "icon": "/static/img/icons/real/whatsapp.png",
+      "art": "/static/img/art/whatsapp.svg",
+      "screenshots": [
+        "/static/img/shots/whatsapp-1.svg",
+        "/static/img/shots/whatsapp-2.svg",
+        "/static/img/shots/whatsapp-3.svg",
+        "/static/img/shots/whatsapp-4.svg"
+      ],
+      "description": "WhatsApp is the default way billions of people keep in touch. Chats, voice notes, status updates and calls all live in one place, with end-to-end encryption applied to personal conversations by default.",
+      "highlights": [
+        "End-to-end encrypted personal and group chats",
+        "Voice, video and picture messages",
+        "Status stories that disappear after 24 hours",
+        "Works on slow connections with message queuing"
+      ],
+      "whatsNew": "Calls now start faster on noisy networks, Status has a new editing window, and chat search results render faster on devices with many conversations.",
+      "permissions": [
+        "Camera",
+        "Microphone",
+        "Contacts",
+        "Location",
+        "Storage"
+      ],
+      "store": "https://play.google.com/store/apps/details?id=com.whatsapp",
+      "storeName": "Google Play",
+      "trending": false,
+      "featured": true,
+      "editorChoice": false,
+      "hero": false,
+      "iconFallback": "/static/img/icons/whatsapp.svg",
+      "storeResolvedFrom": "https://play.google.com/store/apps/details?id=com.whatsapp",
+      "iconSource": {
+        "page": "https://play.google.com/store/apps/details?id=com.whatsapp",
+        "image": "https://play-lh.googleusercontent.com/Gqxk4T0uZsDwFp07DE-508hkyvcNmgFuRwPiwTEfF7D7OzGv1FdHDzEyMxNsSBZLOJlGpe3ULvVM2RgrRAlBqA=s0-br30",
+        "fetched": "2026-10-21T15:40:20+00:00"
+      }
+    }
+  ]
+}

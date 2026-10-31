@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="DuckDuckGo Browser icon">
+<defs>
+<linearGradient id="bgduckduckgo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e16847"/><stop offset="1" stop-color="#3d2b0a"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f5d0c5"/></linearGradient>
+<radialGradient id="glduckduckgo" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#f0b3a3" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgduckduckgo)"/>
+<rect width="64" height="64" rx="15" fill="url(#glduckduckgo)"/>
+<g transform="translate(0,0)"><ellipse cx="30" cy="38" rx="18" ry="13" fill="url(#fg)"/><circle cx="44" cy="23" r="10" fill="url(#fg)"/><path d="M52 22 L60 25 L52 29 Z" fill="url(#fg)"/><circle cx="46" cy="21" r="2" fill="#0b0b0d" opacity=".6"/></g>
+</svg>

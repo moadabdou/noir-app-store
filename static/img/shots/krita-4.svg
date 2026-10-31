@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 1080" width="540" height="1080" role="img" aria-label="Krita screenshot 4">
+<defs><radialGradient id="gkrita4" cx="0.8" cy="0.1" r="0.9"><stop offset="0" stop-color="#624159" stop-opacity=".8"/><stop offset="1" stop-color="#08080a" stop-opacity="0"/></radialGradient></defs>
+<rect width="540" height="1080" fill="#08080a"/>
+<rect x="0" y="0" width="540" height="1080" fill="url(#gkrita4)" opacity=".9"/>
+<g opacity=".35"><circle cx="40" cy="120" r="90" fill="#E0568A"/><circle cx="137" cy="331" r="127" fill="#E0568A"/><circle cx="234" cy="542" r="164" fill="#E0568A"/><circle cx="331" cy="753" r="201" fill="#E0568A"/><circle cx="428" cy="964" r="108" fill="#E0568A"/></g>
+<rect x="0" y="0" width="540" height="60" fill="#000" opacity=".35"/>
+<g fill="#ffffff" opacity=".85"><rect x="28" y="26" width="46" height="8" rx="4"/><rect x="432" y="24" width="80" height="11" rx="5" opacity=".6"/></g>
+<g>
+<text x="28" y="122" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Krita</text>
+<text x="28" y="152" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#ffffff" opacity=".6">Digital painting, fully featured</text>
+<rect x="28" y="172" width="120" height="34" rx="17" fill="#eda2be" opacity=".18"/>
+<text x="88" y="194" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#eda2be">Graphics</text>
+</g>
+<rect x="24" y="210" width="492" height="300" rx="24" fill="#111114" opacity="1.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/><rect x="44" y="230" width="452" height="120" rx="18" fill="#eda2be" opacity=".28"/><g stroke="#eda2be" stroke-width="6" fill="none" stroke-linecap="round" opacity=".9"><path d="M60 330 Q130 250 200 300 T340 280 T480 320"/><path d="M60 370 Q140 320 210 360 T350 340 T480 380"/></g><rect x="44" y="380" width="452" height="2" fill="#ffffff" opacity=".08"/><rect x="60" y="440" width="26" height="26" rx="7" fill="#eda2be" opacity="0.35"/><rect x="122" y="458" width="26" height="42" rx="7" fill="#eda2be" opacity="0.55"/><rect x="184" y="476" width="26" height="58" rx="7" fill="#eda2be" opacity="0.75"/><rect x="246" y="440" width="26" height="74" rx="7" fill="#eda2be" opacity="0.35"/><rect x="308" y="458" width="26" height="26" rx="7" fill="#eda2be" opacity="0.55"/><rect x="370" y="476" width="26" height="42" rx="7" fill="#eda2be" opacity="0.75"/><rect x="432" y="440" width="26" height="58" rx="7" fill="#eda2be" opacity="0.35"/><rect x="24" y="540" width="492" height="92" rx="18" fill="#111114" opacity="1.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+<rect x="44" y="560" width="52" height="52" rx="16" fill="#eda2be" opacity=".85"/>
+<rect x="116" y="566" width="190" height="12" rx="6" fill="#ffffff" opacity=".78"/>
+<rect x="116" y="590" width="120" height="10" rx="5" fill="#ffffff" opacity=".32"/>
+<rect x="440" y="574" width="56" height="24" rx="12" fill="#eda2be" opacity=".25"/><rect x="24" y="644" width="492" height="92" rx="18" fill="#111114" opacity="1.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+<rect x="44" y="664" width="52" height="52" rx="16" fill="#e36695" opacity=".85"/>
+<rect x="116" y="670" width="178" height="12" rx="6" fill="#ffffff" opacity=".78"/>
+<rect x="116" y="694" width="114" height="10" rx="5" fill="#ffffff" opacity=".32"/>
+<rect x="440" y="678" width="56" height="24" rx="12" fill="#e36695" opacity=".25"/><rect x="24" y="748" width="492" height="92" rx="18" fill="#111114" opacity="1.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+<rect x="44" y="768" width="52" height="52" rx="16" fill="#e36695" opacity=".85"/>
+<rect x="116" y="774" width="166" height="12" rx="6" fill="#ffffff" opacity=".78"/>
+<rect x="116" y="798" width="108" height="10" rx="5" fill="#ffffff" opacity=".32"/>
+<rect x="440" y="782" width="56" height="24" rx="12" fill="#e36695" opacity=".25"/><rect x="24" y="852" width="492" height="92" rx="18" fill="#111114" opacity="1.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+<rect x="44" y="872" width="52" height="52" rx="16" fill="#eda2be" opacity=".85"/>
+<rect x="116" y="878" width="154" height="12" rx="6" fill="#ffffff" opacity=".78"/>
+<rect x="116" y="902" width="102" height="10" rx="5" fill="#ffffff" opacity=".32"/>
+<rect x="440" y="886" width="56" height="24" rx="12" fill="#eda2be" opacity=".25"/><rect x="24" y="1010" width="492" height="6" rx="3" fill="#ffffff" opacity=".2"/>
+</svg>

@@ -1,0 +1,192 @@
+<article class="app shell">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="/{{app.type}}s">{{app.type}}</a>
+    <span aria-hidden="true">/</span>
+    <a href="/category/{{cat_slug}}">{{cat_name}}</a>
+    <span aria-hidden="true">/</span>
+    <span class="crumbs__current">{{app.name}}</span>
+  </nav>
+
+  <header class="app__head">
+    <div class="app__ident">
+      <img class="app__icon" src="{{app.icon}}" alt="{{app.name}} app icon" width="132" height="132">
+      <div class="app__names">
+        <p class="eyebrow"><span class="eyebrow__dot"></span>{{cat_name}} · {{app.tagline}}</p>
+        <h1 class="app__title">{{app.name}}</h1>
+        <p class="app__dev">by {{app.developer}}</p>
+        <div class="app__pills">
+          <span class="pill pill--rating">{{stars}}<b>{{app.rating}}</b></span>
+          <span class="pill">{{app.downloads}} downloads</span>
+          <span class="pill">v{{app.version}}</span>
+          <span class="pill">{{app.size}}</span>
+          <span class="pill">{{app.android}}</span>
+        </div>
+        {{#is_mod}}<div class="app__flags">
+          <span class="card__flag card__flag--mod">MOD</span>
+          {{#is_demo}}<span class="card__flag card__flag--demo">DEMO LISTING</span>{{/is_demo}}
+          <span class="mod-base">Based on <a href="/app/{{mod_base_slug}}">{{mod_base_name}}</a></span>
+        </div>{{/is_mod}}
+      </div>
+    </div>
+    <div class="app__actions">
+      {{#is_mod}}{{#has_download}}<a class="btn btn--primary" href="{{download_url}}" rel="noopener noreferrer">{{download_label}}</a>{{/has_download}}
+      {{#download_unavailable}}<span class="btn btn--primary btn--disabled" aria-disabled="true">Download unavailable</span>{{/download_unavailable}}
+      <a class="btn btn--ghost" href="{{app.store}}" target="_blank" rel="noopener noreferrer nofollow">Original on {{store_name}}</a>{{/is_mod}}
+      {{#is_original}}<a class="btn btn--primary" href="{{app.store}}" target="_blank" rel="noopener noreferrer nofollow">Get it on {{store_name}}</a>{{/is_original}}
+      <a class="btn btn--ghost" href="/saved" data-save-slug="{{app.slug}}" data-save-label>Save</a>
+      <button class="btn btn--quiet" type="button" data-share="{{app.slug}}">Share</button>
+    </div>
+  </header>
+
+  <nav class="subnav" aria-label="Page sections">
+    {{#is_mod}}<a class="subnav__link" href="#mod">Changes</a>
+    <a class="subnav__link" href="#variants">Builds</a>
+    <a class="subnav__link" href="#install">Install</a>
+    <a class="subnav__link" href="#faq">FAQ</a>{{/is_mod}}
+    <a class="subnav__link" href="#about">Overview</a>
+    <a class="subnav__link" href="#screenshots">Previews</a>
+    <a class="subnav__link" href="#details">Details</a>
+    <a class="subnav__link" href="#changelog">What's new</a>
+    <a class="subnav__link" href="#similar">Similar</a>
+  </nav>
+
+  <div class="app__layout">
+    <div class="app__main">
+
+      {{#is_mod}}<section class="panel panel--mod" id="mod">
+        <div class="panel__head">
+          <h2 class="panel__title">What this build changes</h2>
+          <span class="panel__note">{{mod_feature_count}} feature{{mod_feature_count}}</span>
+        </div>
+        <ul class="mod-features">{{mod_features}}</ul>
+        <p class="mod-disclaimer">{{mod_disclaimer}}</p>
+      </section>{{/is_mod}}
+
+      <section class="panel" id="screenshots">
+        <div class="panel__head">
+          <h2 class="panel__title">Illustrative previews</h2>
+          <span class="panel__note">Generated artwork, not actual app screens</span>
+        </div>
+        <div class="shots" data-lightbox>{{shots}}</div>
+      </section>
+
+      {{#is_mod}}<section class="panel panel--mod" id="variants">
+        <div class="panel__head">
+          <h2 class="panel__title">Build variants</h2>
+          <span class="panel__note">Pick the build that matches your device</span>
+        </div>
+        <div class="table-scroll">
+          <table class="mod-table">
+            <thead>
+              <tr><th scope="col">Build</th><th scope="col">Version</th><th scope="col">Size</th><th scope="col">Architecture</th></tr>
+            </thead>
+            <tbody>{{mod_variants}}</tbody>
+          </table>
+        </div>
+      </section>{{/is_mod}}
+
+      {{#is_mod}}<section class="panel panel--mod" id="install">
+        <h2 class="panel__title">How to install</h2>
+        <ol class="mod-steps">{{mod_install_steps}}</ol>
+      </section>{{/is_mod}}
+
+      {{#is_mod}}<section class="panel panel--mod" id="faq">
+        <h2 class="panel__title">Questions</h2>
+        <div class="mod-faq">{{mod_faq}}</div>
+      </section>{{/is_mod}}
+
+      <section class="panel" id="about">
+        <h2 class="panel__title">About {{app.name}}</h2>
+        <p class="prose">{{app.description}}</p>
+        <ul class="highlights">{{highlights}}</ul>
+      </section>
+
+      <section class="panel" id="changelog">
+        <h2 class="panel__title">What's new</h2>
+        <p class="prose">{{app.whatsNew}}</p>
+        <p class="muted">Updated {{app.updated}} · version {{app.version}} · {{app.size}}</p>
+      </section>
+
+      <section class="panel" id="details">
+        <h2 class="panel__title">App details</h2>
+        <dl class="info">
+          <div class="info__row"><dt>Developer</dt><dd>{{app.developer}}</dd></div>
+          <div class="info__row"><dt>Category</dt><dd><a href="/category/{{cat_slug}}">{{cat_name}}</a></dd></div>
+          <div class="info__row"><dt>Type</dt><dd>{{app.type}}</dd></div>
+          <div class="info__row"><dt>Version</dt><dd>{{app.version}}</dd></div>
+          <div class="info__row"><dt>Size</dt><dd>{{app.size}}</dd></div>
+          <div class="info__row"><dt>Android requirement</dt><dd>{{app.android}}</dd></div>
+          <div class="info__row"><dt>Released</dt><dd>{{app.released}}</dd></div>
+          <div class="info__row"><dt>Last updated</dt><dd>{{app.updated}}</dd></div>
+          <div class="info__row"><dt>Downloads</dt><dd>{{app.downloads}}</dd></div>
+          <div class="info__row"><dt>Price</dt><dd>{{app.price}}</dd></div>
+          <div class="info__row"><dt>Content rating</dt><dd>{{app.contentRating}}</dd></div>
+          {{#is_mod}}<div class="info__row"><dt>Package id</dt><dd>{{package_id}}</dd></div>
+          <div class="info__row"><dt>Build type</dt><dd>{{build_type}}</dd></div>
+          <div class="info__row"><dt>Base app</dt><dd><a href="/app/{{mod_base_slug}}">{{mod_base_name}}</a></dd></div>{{/is_mod}}
+        </dl>
+        <h3 class="panel__subtitle">Permissions</h3>
+        <div class="app__pills">{{permissions}}</div>
+      </section>
+    </div>
+
+    <aside class="app__side">
+      {{#is_mod}}<div class="panel panel--mod">
+        <p class="panel__eyebrow">Get the build</p>
+        <h3 class="panel__title panel__title--sm">{{download_label}}</h3>
+        {{#has_download}}<a class="btn btn--primary btn--block" href="{{download_url}}" rel="noopener noreferrer">{{download_label}}</a>{{/has_download}}
+        {{#download_unavailable}}<span class="btn btn--block btn--disabled" aria-disabled="true">Download unavailable</span>
+        <p class="muted">{{download_unavailable}}</p>{{/download_unavailable}}
+        <p class="mod-note-inline">Demo listing — no build is published, so NOIR does not offer a download. The original app is still on {{store_name}}.</p>
+        <a class="btn btn--quiet btn--block" href="{{app.store}}" target="_blank" rel="noopener noreferrer nofollow">Open original listing</a>
+      </div>{{/is_mod}}
+
+      <div class="panel panel--rating">
+        {{#is_demo}}<p class="panel__eyebrow">Demo listing</p>
+        <p class="panel__title panel__title--sm">No store rating</p>
+        <p class="muted">Demo entries are not published on a store, so there is no rating to show. The layout below is the same one a real mod listing uses.</p>{{/is_demo}}
+        {{#is_not_demo}}<p class="panel__eyebrow">Store rating</p>
+        <p class="rating__value">{{app.rating}}</p>
+        <div class="rating__stars">{{stars}}</div>
+        <p class="muted">{{app.ratings}} ratings</p>
+        <div class="bars">{{rating_bars}}</div>{{/is_not_demo}}
+      </div>
+
+      <div class="panel panel--store">
+        <p class="panel__eyebrow">Official listing</p>
+        <h3 class="panel__title panel__title--sm">Continue on {{store_name}}</h3>
+        <p class="muted">NOIR never hosts installers — the button opens the developer's official store page.</p>
+        <a class="btn btn--primary btn--block" href="{{app.store}}" target="_blank" rel="noopener noreferrer nofollow">Open store listing</a>
+        <a class="btn btn--quiet btn--block" href="/saved" data-save-slug="{{app.slug}}" data-save-label>Save to my list</a>
+      </div>
+    </aside>
+  </div>
+
+  <section class="section" id="similar">
+    <div class="section__head">
+      <h2 class="section__title">{{similar_title}}</h2>
+      <a class="section__link" href="{{similar_link}}">{{similar_link_label}}</a>
+    </div>
+    <div class="grid grid--cards">{{similar}}</div>
+  </section>
+
+  {{#has_more}}<section class="section" id="more">
+    <div class="section__head">
+      <h2 class="section__title">More from NOIR</h2>
+      <a class="section__link" href="/apps">Browse the catalogue</a>
+    </div>
+    <div class="grid grid--cards">{{more}}</div>
+  </section>{{/has_more}}
+
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__title">Fresh in the catalogue</h2>
+      <a class="section__link" href="/apps?sort=newest">All updates</a>
+    </div>
+    <div class="grid grid--cards">{{latest_same}}</div>
+  </section>
+</article>
+
+<script type="application/ld+json">{{jsonld}}</script>

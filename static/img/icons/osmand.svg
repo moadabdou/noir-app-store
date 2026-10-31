@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="OsmAnd icon">
+<defs>
+<linearGradient id="bgosmand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5db761"/><stop offset="1" stop-color="#0d3318"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cce8ce"/></linearGradient>
+<radialGradient id="glosmand" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#aedbb0" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgosmand)"/>
+<rect width="64" height="64" rx="15" fill="url(#glosmand)"/>
+<g transform="translate(0,0)"><path d="M8 16 L24 10 L40 16 L56 10 V48 L40 54 L24 48 L8 54 Z" fill="url(#fg)"/><path d="M24 10 V48 M40 16 V54" stroke="#0b0b0d" stroke-width="2.5" opacity=".4"/><circle cx="32" cy="32" r="6" fill="#0b0b0d" opacity=".55"/></g>
+</svg>

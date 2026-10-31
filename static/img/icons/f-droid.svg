@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="F-Droid icon">
+<defs>
+<linearGradient id="bgfdroid" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#52ac5e"/><stop offset="1" stop-color="#1f2a12"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c9e5cd"/></linearGradient>
+<radialGradient id="glfdroid" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#a8d5ae" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgfdroid)"/>
+<rect width="64" height="64" rx="15" fill="url(#glfdroid)"/>
+<g transform="translate(0,0)"><path d="M32 8 L54 20 V44 L32 56 L10 44 V20 Z" fill="url(#fg)"/><path d="M32 32 L54 20 M32 32 V56 M32 32 L10 20" stroke="#0b0b0d" stroke-width="2.5" opacity=".45" fill="none"/></g>
+</svg>

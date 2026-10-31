@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Among Us icon">
+<defs>
+<linearGradient id="bgamongus" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ed5aa3"/><stop offset="1" stop-color="#431323"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f9cbe2"/></linearGradient>
+<radialGradient id="glamongus" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#f6acd1" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgamongus)"/>
+<rect width="64" height="64" rx="15" fill="url(#glamongus)"/>
+<g transform="translate(0,0)"><ellipse cx="32" cy="38" rx="16" ry="18" fill="url(#fg)"/><rect x="12" y="26" width="12" height="20" rx="5" fill="url(#fg)"/><rect x="24" y="22" width="22" height="12" rx="6" fill="#0b0b0d" opacity=".45"/><rect x="27" y="25" width="16" height="6" rx="3" fill="url(#fg)" opacity=".9"/><path d="M32 20 V9" stroke="url(#fg)" stroke-width="5" stroke-linecap="round"/></g>
+</svg>

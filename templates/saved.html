@@ -1,0 +1,23 @@
+<section class="shell catalog">
+  <header class="catalog__head">
+    <p class="eyebrow"><span class="eyebrow__dot"></span>Your shelf</p>
+    <h1 class="catalog__title">Saved apps</h1>
+    <p class="catalog__blurb">Bookmarks live in this browser only — nothing is uploaded and nothing is tracked.</p>
+  </header>
+
+  <div class="saved-actions">
+    <a class="btn btn--primary btn--sm" href="/apps">Keep browsing</a>
+    <button class="btn btn--quiet btn--sm" type="button" id="clear-saved">Clear saved list</button>
+  </div>
+
+  <div class="grid grid--cards" id="saved-grid"></div>
+
+  <div class="empty" id="saved-empty">
+    <span class="empty__mark" aria-hidden="true">★</span>
+    <h2 class="empty__title">Nothing saved yet</h2>
+    <p class="empty__text">Tap <b>Save</b> on any app or game and it will show up here, ready for your next session.</p>
+    <a class="btn btn--primary btn--sm" href="/apps">Browse the catalogue</a>
+  </div>
+</section>
+
+<script type="application/json" id="catalog-data">{{catalog_json}}</script>

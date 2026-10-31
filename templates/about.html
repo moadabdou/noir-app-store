@@ -1,0 +1,45 @@
+<section class="shell about">
+  <header class="catalog__head">
+    <p class="eyebrow"><span class="eyebrow__dot"></span>About</p>
+    <h1 class="catalog__title">A dark room for good apps</h1>
+    <p class="catalog__blurb">NOIR is a small, independent catalogue of Android apps and games. No mirrors, no installers, no clutter — just honest listings that link to the official store.</p>
+  </header>
+
+  <div class="about__grid">
+    <section class="panel">
+      <h2 class="panel__title">How NOIR works</h2>
+      <ul class="highlights">
+        <li class="highlight"><span class="highlight__tick">✓</span><span>Every listing points to Google Play or F-Droid — the developer's own page.</span></li>
+        <li class="highlight"><span class="highlight__tick">✓</span><span>We never host, re-pack or mirror APKs, so you always install a signed build.</span></li>
+        <li class="highlight"><span class="highlight__tick">✓</span><span>No accounts, no telemetry, no advertising network behind the page.</span></li>
+        <li class="highlight"><span class="highlight__tick">✓</span><span>Saved apps stay in your browser's local storage.</span></li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel__title">At a glance</h2>
+      <div class="stat-grid">
+        <div class="stat"><span class="stat__value">{{app_count}}</span><span class="stat__label">Apps listed</span></div>
+        <div class="stat"><span class="stat__value">{{game_count}}</span><span class="stat__label">Games listed</span></div>
+        <div class="stat"><span class="stat__value">100%</span><span class="stat__label">Official links</span></div>
+        <div class="stat"><span class="stat__value">0</span><span class="stat__label">Trackers</span></div>
+      </div>
+      <p class="muted">Adding a new title takes one object in <code>data/apps.json</code> — every page in the site is generated from it.</p>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel__title">Technology</h2>
+      <p class="prose">The whole site runs on the Python standard library: one threaded HTTP server, server-rendered templates and a single JSON catalogue. There is no build step, no framework and no client-side framework. The only JavaScript shipped handles search, the mobile menu and bookmarks.</p>
+      <p class="prose">Every app page is rendered from one shared template, so a new entry in the catalogue is automatically a complete, fully working detail page with ratings, screenshots, metadata and official links.</p>
+    </section>
+
+    <section class="panel">
+      <h2 class="panel__title">Request a title</h2>
+      <p class="prose">Missing something? The catalogue is only as good as its readers. Add a title by editing <code>data/apps.json</code> and restarting the service, or browse the shelf and save what matters to you.</p>
+      <div class="about__actions">
+        <a class="btn btn--primary btn--sm" href="/apps">Open catalogue</a>
+        <a class="btn btn--ghost btn--sm" href="/categories">Browse categories</a>
+      </div>
+    </section>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Bloons TD 6 icon">
+<defs>
+<linearGradient id="bgbloonstd6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6a723"/><stop offset="1" stop-color="#2a1206"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fce3ba"/></linearGradient>
+<radialGradient id="glbloonstd6" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#fad391" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgbloonstd6)"/>
+<rect width="64" height="64" rx="15" fill="url(#glbloonstd6)"/>
+<g transform="translate(0,0)"><circle cx="32" cy="32" r="23" fill="none" stroke="url(#fg)" stroke-width="4"/><circle cx="32" cy="32" r="14" fill="none" stroke="url(#fg)" stroke-width="4" opacity=".75"/><circle cx="32" cy="32" r="5" fill="url(#fg)"/><path d="M44 20 L56 8 M50 8 H56 V14" stroke="url(#fg)" stroke-width="4" fill="none" stroke-linecap="round"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Signal icon">
+<defs>
+<linearGradient id="bgsignal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3ad775"/><stop offset="1" stop-color="#0b3d2e"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c1f2d4"/></linearGradient>
+<radialGradient id="glsignal" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#9cebba" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgsignal)"/>
+<rect width="64" height="64" rx="15" fill="url(#glsignal)"/>
+<g transform="translate(0,0)"><path d="M32 7 L52 15 V31 C52 44 43 55 32 59 C21 55 12 44 12 31 V15 Z" fill="url(#fg)"/><path d="M23 32 L29.5 39 L42 25" fill="none" stroke="#0b0b0d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="AntennaPod icon">
+<defs>
+<linearGradient id="bgantennapod" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6a723"/><stop offset="1" stop-color="#3a2205"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fce3ba"/></linearGradient>
+<radialGradient id="glantennapod" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#fad391" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgantennapod)"/>
+<rect width="64" height="64" rx="15" fill="url(#glantennapod)"/>
+<g transform="translate(0,0)"><rect x="22" y="7" width="20" height="32" rx="10" fill="url(#fg)"/><path d="M13 30 A19 19 0 0 0 51 30" fill="none" stroke="url(#fg)" stroke-width="4.5" stroke-linecap="round"/><path d="M32 49 V58 M22 58 H42" stroke="url(#fg)" stroke-width="4.5" stroke-linecap="round"/></g>
+</svg>

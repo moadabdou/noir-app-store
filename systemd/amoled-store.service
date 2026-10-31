@@ -1,0 +1,22 @@
+[Unit]
+Description=NOIR app store - AMOLED Android catalogue
+Documentation=file:///home/ubuntu/amoled-store/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/amoled-store
+Environment=NOIR_HOST=0.0.0.0
+Environment=NOIR_PORT=8084
+ExecStart=/usr/bin/python3 /home/ubuntu/amoled-store/server.py
+Restart=always
+RestartSec=3
+KillSignal=SIGINT
+TimeoutStopSec=10
+StandardOutput=append:/home/ubuntu/amoled-store/.checks/service.log
+StandardError=append:/home/ubuntu/amoled-store/.checks/service.log
+
+[Install]
+WantedBy=multi-user.target

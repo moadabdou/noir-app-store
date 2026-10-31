@@ -1,0 +1,122 @@
+<section class="hero shell">
+  <div class="hero__copy">
+    <p class="eyebrow"><span class="eyebrow__dot"></span>Editor's pick · Updated {{hero.updated}}</p>
+    <h1 class="hero__title">{{hero.name}}</h1>
+    <p class="hero__tagline">{{hero.tagline}}</p>
+    <div class="hero__stats">
+      <span class="pill pill--rating">{{hero_stars}}<b>{{hero.rating}}</b></span>
+      <span class="pill">{{hero.downloads}} downloads</span>
+      <span class="pill">{{hero.size}}</span>
+      <span class="pill">{{hero.android}}</span>
+    </div>
+    <p class="hero__desc">{{hero.description}}</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="/app/{{hero.slug}}">View app</a>
+      <a class="btn btn--ghost" href="{{hero.store}}" target="_blank" rel="noopener noreferrer nofollow">Official store</a>
+      <a class="btn btn--quiet" href="/saved" data-save-slug="{{hero.slug}}">Save</a>
+    </div>
+    <ul class="hero__list">
+      <li>{{hero.highlights.0}}</li>
+      <li>{{hero.highlights.1}}</li>
+      <li>{{hero.highlights.2}}</li>
+    </ul>
+  </div>
+  <div class="hero__visual">
+    <div class="hero__frame">
+      <img src="{{hero.art}}" alt="Abstract artwork for {{hero.name}}" width="1200" height="800">
+      <div class="hero__frame-glow" aria-hidden="true"></div>
+    </div>
+    <div class="hero__card">
+      <img class="hero__card-icon" src="{{hero.icon}}" alt="" width="56" height="56">
+      <div>
+        <p class="hero__card-name">{{hero.name}}</p>
+        <p class="hero__card-meta">{{hero.developer}} · v{{hero.version}}</p>
+      </div>
+      <span class="pill pill--rating">{{hero_stars}}<b>{{hero.rating}}</b></span>
+    </div>
+  </div>
+</section>
+
+<section class="shell section section--chips">
+  <div class="section__head">
+    <h2 class="section__title">Browse by category</h2>
+    <a class="section__link" href="/categories">All categories</a>
+  </div>
+  <div class="chips chips--scroll" role="list">{{chips}}</div>
+</section>
+
+{{#has_mods}}<section class="shell section section--mods">
+  <div class="section__head">
+    <h2 class="section__title">Mod listings</h2>
+    <a class="section__link" href="/mods">See all mods</a>
+  </div>
+  <p class="section__note section__note--lead">{{mod_count_label}}. Every build states exactly what it changes before you install.</p>
+  <div class="mod-strip">{{mod_strip}}</div>
+</section>{{/has_mods}}
+
+<section class="shell section">
+  <div class="section__head">
+    <h2 class="section__title">Trending this week</h2>
+    <a class="section__link" href="/apps?sort=popular">See all apps</a>
+  </div>
+  <div class="grid grid--cards">{{trending}}</div>
+</section>
+
+<section class="shell section">
+  <div class="section__head">
+    <h2 class="section__title">Games worth your data</h2>
+    <a class="section__link" href="/games">All games</a>
+  </div>
+  <div class="band">
+    <div class="band__art">
+      <img src="{{game_hero.art}}" alt="Abstract artwork for {{game_hero.name}}" width="1200" height="800" loading="lazy">
+    </div>
+    <div class="band__copy">
+      <p class="eyebrow"><span class="eyebrow__dot"></span>Game of the week</p>
+      <h3 class="band__title">{{game_hero.name}}</h3>
+      <p class="band__text">{{game_hero.tagline}} — {{game_hero.description}}</p>
+      <div class="band__meta">
+        <span class="pill pill--rating">{{game_hero_stars}}<b>{{game_hero.rating}}</b></span>
+        <span class="pill">{{game_hero.size}}</span>
+        <span class="pill">{{game_hero.android}}</span>
+        <span class="pill">{{game_hero.downloads}} downloads</span>
+      </div>
+      <div class="band__actions">
+        <a class="btn btn--primary" href="/app/{{game_hero.slug}}">View game</a>
+        <a class="btn btn--ghost" href="{{game_hero.store}}" target="_blank" rel="noopener noreferrer nofollow">Official store</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="shell section">
+  <div class="panel panel--chart">
+    <div class="section__head">
+      <h2 class="section__title">Top charts</h2>
+      <span class="section__note">Most saved in NOIR</span>
+    </div>
+    <div class="rows">{{charts}}</div>
+  </div>
+</section>
+
+<section class="shell section">
+  <div class="section__head">
+    <h2 class="section__title">Latest updates</h2>
+    <a class="section__link" href="/apps?sort=newest">Sort by newest</a>
+  </div>
+  <div class="grid grid--cards">{{latest}}</div>
+</section>
+
+<section class="shell">
+  <div class="cta">
+    <div class="cta__copy">
+      <p class="eyebrow eyebrow--dark"><span class="eyebrow__dot"></span>{{app_count}} apps · {{game_count}} games</p>
+      <h2 class="cta__title">Everything here links to the real store.</h2>
+      <p class="cta__text">NOIR never hosts installers. Pick a title, read the notes, and continue on the official listing.</p>
+    </div>
+    <div class="cta__actions">
+      <a class="btn btn--dark" href="/apps">Browse apps</a>
+      <a class="btn btn--outline-dark" href="/games">Browse games</a>
+    </div>
+  </div>
+</section>

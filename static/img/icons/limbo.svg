@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Limbo icon">
+<defs>
+<linearGradient id="bglimbo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#df3b3b"/><stop offset="1" stop-color="#2b0d0d"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f5c2c2"/></linearGradient>
+<radialGradient id="gllimbo" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#ef9d9d" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bglimbo)"/>
+<rect width="64" height="64" rx="15" fill="url(#gllimbo)"/>
+<g transform="translate(0,0)"><circle cx="26" cy="18" r="11" fill="url(#fg)"/><path d="M14 56 Q16 32 30 32 Q44 32 46 56 Z" fill="url(#fg)"/><path d="M34 56 L56 56" stroke="url(#fg)" stroke-width="4" stroke-linecap="round" opacity=".5"/></g>
+</svg>

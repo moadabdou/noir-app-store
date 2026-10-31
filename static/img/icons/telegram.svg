@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Telegram icon">
+<defs>
+<linearGradient id="bgtelegram" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb3ef"/><stop offset="1" stop-color="#0a3d62"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c3e7fa"/></linearGradient>
+<radialGradient id="gltelegram" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#9fd9f7" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgtelegram)"/>
+<rect width="64" height="64" rx="15" fill="url(#gltelegram)"/>
+<g transform="translate(0,0)"><path d="M32 8 L55 54 L32 42 L9 54 Z" fill="url(#fg)"/><path d="M32 42 L32 8" stroke="#0b0b0d" stroke-width="2.5" opacity=".55"/><path d="M32 42 L55 54" stroke="#0b0b0d" stroke-width="2.5" opacity=".55"/></g>
+</svg>

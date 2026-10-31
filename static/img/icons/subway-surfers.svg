@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Subway Surfers icon">
+<defs>
+<linearGradient id="bgsubwaysurfers" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f95456"/><stop offset="1" stop-color="#3d0f18"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fdc9ca"/></linearGradient>
+<radialGradient id="glsubwaysurfers" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#fca9aa" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgsubwaysurfers)"/>
+<rect width="64" height="64" rx="15" fill="url(#glsubwaysurfers)"/>
+<g transform="translate(0,0)"><rect x="14" y="8" width="36" height="38" rx="9" fill="url(#fg)"/><rect x="20" y="15" width="24" height="15" rx="4" fill="#0b0b0d" opacity=".42"/><circle cx="23" cy="46" r="5" fill="url(#fg)"/><circle cx="41" cy="46" r="5" fill="url(#fg)"/><path d="M10 56 H54" stroke="url(#fg)" stroke-width="4" stroke-linecap="round" opacity=".7"/></g>
+</svg>

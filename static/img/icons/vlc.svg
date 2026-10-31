@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="VLC icon">
+<defs>
+<linearGradient id="bgvlc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6ae39"/><stop offset="1" stop-color="#2b1f05"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fce6c1"/></linearGradient>
+<radialGradient id="glvlc" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#fad69c" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgvlc)"/>
+<rect width="64" height="64" rx="15" fill="url(#glvlc)"/>
+<g transform="translate(0,0)"><path d="M32 10 L49 46 H15 Z" fill="url(#fg)"/><rect x="11" y="46" width="42" height="8" rx="3" fill="url(#fg)" opacity=".75"/><path d="M22 40 H42" stroke="#0b0b0d" stroke-width="2" opacity=".35"/></g>
+</svg>

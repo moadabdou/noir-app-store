@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Spotify icon">
+<defs>
+<linearGradient id="bgspotify" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#33c065"/><stop offset="1" stop-color="#0b3f1c"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#bfebcf"/></linearGradient>
+<radialGradient id="glspotify" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#99dfb2" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgspotify)"/>
+<rect width="64" height="64" rx="15" fill="url(#glspotify)"/>
+<g transform="translate(0,0)"><g fill="none" stroke="url(#fg)" stroke-width="5" stroke-linecap="round"><path d="M10 24 Q22 14 32 24 T54 24"/><path d="M10 36 Q22 26 32 36 T54 36"/><path d="M10 48 Q22 38 32 48 T54 48"/></g></g>
+</svg>

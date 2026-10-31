@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Krita icon">
+<defs>
+<linearGradient id="bgkrita" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e36695"/><stop offset="1" stop-color="#3b1230"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6cfde"/></linearGradient>
+<radialGradient id="glkrita" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#f1b2ca" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgkrita)"/>
+<rect width="64" height="64" rx="15" fill="url(#glkrita)"/>
+<g transform="translate(0,0)"><rect x="29" y="7" width="6" height="22" rx="3" fill="url(#fg)"/><rect x="25" y="27" width="14" height="8" rx="2" fill="url(#fg)"/><path d="M27 35 Q32 52 32 58 Q20 54 22 44 Z" fill="url(#fg)"/></g>
+</svg>

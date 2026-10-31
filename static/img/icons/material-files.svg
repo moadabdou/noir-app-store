@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="128" height="128" role="img" aria-label="Material Files icon">
+<defs>
+<linearGradient id="bgmaterialfiles" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#96c95c"/><stop offset="1" stop-color="#0d2b1a"/></linearGradient>
+<linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#deeecc"/></linearGradient>
+<radialGradient id="glmaterialfiles" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#cae4ad" stop-opacity=".85"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="64" height="64" rx="15" fill="url(#bgmaterialfiles)"/>
+<rect width="64" height="64" rx="15" fill="url(#glmaterialfiles)"/>
+<g transform="translate(0,0)"><path d="M10 20 Q10 14 16 14 H28 L34 21 H48 Q54 21 54 27 V46 Q54 52 48 52 H16 Q10 52 10 46 Z" fill="url(#fg)"/><path d="M10 28 H54" stroke="#0b0b0d" stroke-width="2.5" opacity=".35"/></g>
+</svg>
